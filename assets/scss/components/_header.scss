@@ -1,10 +1,11 @@
 /*=============== HEADER ===============*/
 .header {
     width: 100%;
-    background: var(--body-color);
-    position: fixed;
+    position: absolute;
+    background-color: transparent;
     top: 0;
     left: 0;
+    // box-shadow: 0px 4px 15px #EAEAEA;
     z-index: var(--z-fixed);
 }
 
@@ -20,17 +21,13 @@
         align-items: center;
         column-gap: .5rem;
         font-weight: var(--font-medium);
-    
-        &-img {
-            width: 1.25rem;
-        }
     }
 
     &__link,
     &__logo,
     &__toggle,
     &__close {
-        color: var(--title-color);
+        
     }
 
     &__toggle {
@@ -42,7 +39,6 @@
         @media screen and (max-width: 767px){
             position: fixed;
             width: 100%;
-            background: var(--container-color);
             top: -150%;
             left: 0;
             padding: 3.5rem 0;
@@ -50,13 +46,6 @@
             z-index: var(--z-fixed);
             border-radius: 0 0 1.5rem 1.5rem;
         }
-    }
-
-    &__img {
-        width: 100px;
-        position: absolute;
-        top: 0;
-        left: 0;
     }
 
     &__close {
@@ -76,12 +65,13 @@
 
     &__link {
         text-transform: uppercase;
-        font-weight: var(--font-black);
+        font-weight: var(--font-medium);
+        color: var(--title-color);
         transition: .4s;
     }
 
     &__link:hover {
-        color: var(--text-color);
+       
     }
 }
 
@@ -91,7 +81,7 @@
 }
 
 .scroll-header {
-    background: var(--container-color);
+    
 }
 
 /* Active link */
@@ -105,7 +95,7 @@
         left: 45%;
         width: 5px;
         height: 5px;
-        background-color: var(--title-color);
+        
         border-radius: 50%;
     }
 }

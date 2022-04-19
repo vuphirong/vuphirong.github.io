@@ -1,0 +1,46 @@
+.introduction {
+    &__text p {
+        text-align: justify;
+        margin-bottom: var(--mb-1-5);
+        line-height: 22px;
+    }
+
+    &__text ul {
+        margin-bottom: var(--mb-1-5);
+        list-style-type: disc;
+
+        li {
+            margin-left: 20px;
+            span {
+                line-height: 22px;
+                text-align: justify;
+            }
+        }
+
+        li:first-child {
+            margin-left: 0;
+            list-style-type: none;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        max-width: 568px;
+        height: auto;
+    }
+
+    &__group {
+        justify-self: center;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: space-between;
+        justify-self: center;
+        margin-top: var(--mb-1-5);
+        a span {
+            font-size: var(--normal-font-size);
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,32 +1,49 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+/*=============== FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/PoppinsVN-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/PoppinsVN-400-italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/PoppinsVN-500.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/PoppinsVN-600.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/PoppinsVN-700.ttf");
+    font-weight: 700;
+}
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-    --header-height: 3.5rem;
-    /*========== Colors ==========*/
-    --hue: 14;
-
-    --first-color: hsl(var(--hue), 91%, 54%);
-    --first-color-alt: hsl(var(--hue), 91%, 50%);
-    --title-color: hsl(var(--hue), 4%, 100%);
-    --text-color: hsl(var(--hue), 4%, 85%);
-    --text-color-light: hsl(var(--hue), 4%, 55%);
-
-    /* Green gradient */
-    --body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
-    --container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
-
-    /* Red gradient */
-    // --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
-    // --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%);
-
-    /* Black solid */
-    // --body-color: hsl(30, 8%, 8%);
-    // --container-color: hsl(30, 8%, 10%);
-
+    --header-height: 5rem;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
+    --title-font: 'Montserrat', sans-serif;
+
+    --first-color: #F58020;
+    --first-color-alt: #f58020e7;
+    --title-color: #0097BD;
+    --text-color: #3E3E3E;
+    
 
     --biggest-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -37,8 +54,8 @@
     --smaller-font-size: .75rem;
 
     // Responsive typography
-    @media screen and (min-width: 992px){
-        --biggest-font-size: 4rem;
+    @media screen and (min-width: 992px) {
+        --biggest-font-size: 3.5rem;
         --h1-font-size: 2.25rem;
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
@@ -48,11 +65,13 @@
     }
 
     /*========== Font weight ==========*/
+    --font-normal: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
+    --font-bold: 700;
     --font-black: 900;
 
-    /*========== Margenes Bottom ==========*/
+    /*========== Margin Bottom ==========*/
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
     --mb-0-75: .75rem;
@@ -60,6 +79,24 @@
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
     --mb-2-5: 2.5rem;
+
+    /*========== Margin Left ==========*/
+    --ml-0-25: .25rem;
+    --ml-0-5: .5rem;
+    --ml-0-75: .75rem;
+    --ml-1: 1rem;
+    --ml-1-5: 1.5rem;
+    --ml-2: 2rem;
+    --ml-2-5: 2.5rem;
+
+    /*========== Margin right ==========*/
+    --mr-0-25: .25rem;
+    --mr-0-5: .5rem;
+    --mr-0-75: .75rem;
+    --mr-1: 1rem;
+    --mr-1-5: 1.5rem;
+    --mr-2: 2rem;
+    --mr-2-5: 2.5rem;
 
     /*========== z index ==========*/
     --z-tooltip: 10;

@@ -1,0 +1,31 @@
+.benefit {
+    background-color: #F5F5F5;
+
+    &__data {
+        margin-bottom: 34px;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+        margin-bottom: 16px;
+        border-radius: 15px;
+        padding: 23px;
+    }
+
+    &__img {
+        width: 76px;
+        height: 76px;
+        margin-right: 23px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        a span {
+            font-size: var(--normal-font-size);
+            color: #FFFFFF;
+        }
+    }
+}

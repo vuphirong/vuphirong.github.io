@@ -1,18 +1,83 @@
 .about {
-    &__container {
-        row-gap: 2rem;
+    &__box { 
+        background-color: #F3FDFF;
+        border-radius: 20px;
+        margin-bottom: 30px;
     }
 
-    &__data {
-        text-align: center;
+    &__box:last-child {
+        margin-bottom: 0;
     }
 
-    &__description {
-        margin-bottom: var(--mb-2);
+    &__text {
+        h6 {
+            font-family: var(--title-font);
+            font-weight: var(--font-medium);
+            font-size: var(--small-font-size);
+            color: #0097BD;
+            padding: 35px 0 0 35px;
+        }
+
+        h3 {
+            position: relative;
+            font-family: var(--title-font);
+            font-weight: var(--font-bold);
+            font-size: var(--h1-font-size);
+            padding-left: 35px;
+            margin-bottom: 30px;
+            &::after {
+                content: " ";
+                position: absolute;
+                display: block;
+                width: 15%;
+                height: 2px;
+                top: 35px;
+                background-color: #0097BD;
+            }
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #0097BD;
+            padding: 0 35px;
+        }
+
+        p:last-child {
+            margin-bottom: 35px;
+        }
     }
 
-    &__img {
-        width: 200px;
-        justify-self: center;
+    &__group {
+        display: none;
+    }
+
+    &__blue {
+        background-color: #0097BD;
+        .about__text {
+            h6 {
+                color: #fff;
+                text-align: right;
+                padding-right: 35px;
+            }
+            h3 {
+                color: #fff;
+                text-align: right;
+                padding-right: 35px;
+                &::after {
+                    right: 35px;
+                    background-color: #fff;
+                    width: 30%;
+                }
+            }
+            p {
+                color: #fff;
+            }
+
+            p:nth-child(3) {
+                font-style: italic;
+                font-size: var(--small-font-size);
+            }
+        }
     }
 }

@@ -1,3 +1,47 @@
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+  
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};      
+}
+
+@include keyframes(pulse) {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 /*=============== BUTTON ===============*/
 .button {
     display: inline-block;
@@ -5,8 +49,17 @@
     color: var(--title-color);
     padding: 1rem 1.75rem;
     border-radius: .5rem;
-    font-weight: var(--font-medium);
+    font-family: var(--title-font);
+    font-weight: var(--font-semi-bold);
     transition: .3s;
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
 
     &__icon {
         font-size: 1.25rem;
@@ -31,9 +84,5 @@
 }
 
 .button:hover {
-    background-color: var(--first-color-alt);
-}
-
-.button--ghost:hover {
-    background-color: transparent;
+    background-color: var(--text-color);
 }

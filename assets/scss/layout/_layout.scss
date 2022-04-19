@@ -1,25 +1,31 @@
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
-    padding: 4.5rem 0 2rem;
+    padding: 50px 0 50px;
 
     &__title{
-        font-size: var(--h2-font-size);
+        font-size: var(--h1-font-size);
         margin-bottom: var(--mb-2);
-        text-align: center;
+        font-weight: var(--font-bold);
+
+        &::after {
+            content: " ";
+            position: relative;
+            top: 5px;
+            display: block;
+            width: 30%;
+            height: 3px;
+            background-color: var(--first-color);
+        }
     }
 }
 
 /*=============== LAYOUT ===============*/
 .container{
     max-width: 968px;
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--ml-1-5);
+    margin-right: var(--mr-1-5);
 }
 
 .grid{
     display: grid;
-}
-
-.main{
-    overflow: hidden; // For animation
 }
