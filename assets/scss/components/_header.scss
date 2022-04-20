@@ -20,6 +20,11 @@
         align-items: center;
         column-gap: .5rem;
         font-weight: var(--font-medium);
+
+        &-img {
+            width: 80%;
+            transform: translateY(-5px);
+        }
     }
 
     &__toggle {
@@ -59,11 +64,12 @@
         text-transform: uppercase;
         font-weight: var(--font-semi-bold);
         color: var(--title-color);
+        font-family: var(--title-font);
         transition: .4s;
     }
 
     &__link:hover {
-        color: #0d3b46;
+        color: var(--first-color);
     }
 }
 
@@ -82,5 +88,5 @@
 
 /* Active link */
 .active-link{
-    color: #0d3b46;
+    color: var(--first-color);
 }

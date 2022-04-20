@@ -20,17 +20,16 @@
     }
 
     &__group:hover {
-        border: 2px solid var(--text-color);
         transform: scale(1.05);
 
         .product__buttons {
             a {
-                border: 2px solid var(--text-color);
-                background-color: var(--text-color);
-            }
-    
-            a span {
-                color: #fff;
+                border: 2px solid #0097BD;
+                background-color: #0097BD;
+
+                span {
+                    color: #E9F7F8;
+                }
             }
         }
     }
@@ -152,6 +151,26 @@
                 font-size: var(--smaller-font-size);
                 font-style: italic;
                 font-weight: var(--font-normal);
+            }
+        }
+
+        &:hover {
+            .product__buttons {
+                a {
+                    border: 2px solid #E9F7F8;
+                    background-color: #E9F7F8;
+    
+                    span {
+                        color: #0097BD;
+                    }
+                }
+    
+                .product__discount {
+                    color: #0097BD;
+                    &::before {
+                        background-color: #0097BD;
+                    }
+                }
             }
         }
     }

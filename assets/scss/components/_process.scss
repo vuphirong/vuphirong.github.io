@@ -17,6 +17,10 @@
         }
     }
 
+    &__img {
+        transform: scale(1.4) translate(30%, -20px);
+    }
+
     &__num {
         display: flex;
         width: 32px;
@@ -29,11 +33,13 @@
         font-family: var(--title-font);
         font-weight: var(--font-bold);
         margin-right: 20px;
-    }
+        transition: .2s all;
+        cursor: pointer;
 
-    &__bg-blue {
-        color: #ffffff;
-        background-color: #0097BD;
+        &:hover {
+            color: #fff;
+            background-color: #0097BD;
+        }
     }
 
     &__line {

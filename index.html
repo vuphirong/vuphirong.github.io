@@ -151,8 +151,8 @@
                             </p>
                         </div>
                         <div class="question__buttons">
-                            <a href="#" class="button"><span>Câu hỏi mẫu</span></a>
-                            <a href="#" class="button btn__blue"><span>Báo cáo mẫu</span></a>
+                            <a href="#show" class="button" id="btn-question" data-handle="#popup-questions"><span>Câu hỏi mẫu</span></a>
+                            <a href="#show" class="button btn__blue" id="btn-report" data-handle="#popup-reports"><span>Báo cáo mẫu</span></a>
                         </div>
                     </div>
                     <div class="question__group grid">
@@ -167,7 +167,7 @@
                 <h2 class="section__title">Quy trình thực hiện</h2>
                 <div class="process__content">
                     <div class="process__group">
-                        <img class="process__img" src="assets/images/process.png" alt="process">
+                        <img class="process__img" src="assets/images/process.gif" alt="process">
                     </div>
                     <div class="process__data">
                         <div class="process__step">
@@ -224,7 +224,7 @@
                         <div class="product__version">
                             <span>Pro</span>
                         </div>
-                        <img src="assets/images/product-free.png" class="product__img" alt="product-free">
+                        <img src="assets/images/product-pro.png" class="product__img" alt="product-free">
                         <div class="product__texts">
                             <div class="product__text">
                                 <i class='bx bx-check' ></i>
@@ -270,7 +270,7 @@
                                 <input type="email" class="contact__input" placeholder="Email">
                             </div>
                             <div class="contact__buttons">
-                                <a href="#" class="button"><span>Gửi thông tin</span></a>
+                                <a href="#" class="button"><span>Trắc nghiệm ngay</span></a>
                             </div>
                         </form>
                     </div>
@@ -301,11 +301,35 @@
                         </div>
                         <div class="about__text">
                             <h6>Đối tác chiến lược</h6>
-                            <h3>Everything DISC</h3>
+                            <h3>Everything DiSC</h3>
                             <p>Tháng 12/2021, Công ty Tư vấn phát triển nguồn nhân lực JobTest chính thức trở thành đối tác chiến lược đầu tiên của Everything DiSC tại Việt Nam</p>
                             <p>Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="popup section" id="popup-questions">
+            <div class="popup__content">
+                <div class="popup__header">
+                    <h2 class="section__title">Câu hỏi mẫu</h2>
+                    <div class="popup__icon"><i class="bx bx-x btn-close"></i></div>
+                </div>
+                <div class="popup__body">
+                    <img src="assets/images/question-default.png" alt="question-default">
+                </div>
+            </div>
+        </section>
+
+        <section class="popup section" id="popup-reports">
+            <div class="popup__content">
+                <div class="popup__header">
+                    <h2 class="section__title">Báo cáo mẫu</h2>
+                    <div class="popup__icon"><i class="bx bx-x btn-close"></i></div>
+                </div>
+                <div class="popup__body">
+                    <iframe src="https://jobtest.vn/statics/upload/2021/11/1636352382-445.pdf" style="width: 100%; height: 800px;"></iframe>
                 </div>
             </div>
         </section>

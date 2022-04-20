@@ -24,6 +24,7 @@
     .question {
         &__img {
             max-width: 514px;
+            transform: translateY(-15px);
         }
     }
 
@@ -51,7 +52,6 @@
 
 @media screen and (min-width: 767px){
     .nav {
-        height: calc(var(--header-height) + 1.5rem);
 
         &__img,
         &__close,
@@ -65,7 +65,20 @@
         }
         &__link{
             text-transform: initial;
-            font-weight: initial;
+            
+        }
+    }
+
+    .popup {
+        &__content {
+            margin: 0 auto;
+            padding: 40px 30px;
+        }
+
+        &__icon {
+            i {
+                transform: translateY(0px);
+            }
         }
     }
 
@@ -224,6 +237,18 @@
         margin-right: auto;
     }
 
+    .section__title {
+        font-size: 26px;
+    }
+
+    .popup {
+        &__icon {
+            i {
+                transform: translateY(-15px);
+            }
+        }
+    }
+
     .home{
         &__group{
             padding-top: 0;
@@ -263,12 +288,12 @@
 
         &__group {
             margin-bottom: 0;
-            margin-right: 25px;
+            margin-right: 50px;
         }
 
         &__group:last-child {
             margin-right: 0;
-            margin-left: 25px;
+            margin-left: 50px;
         }
     }
 

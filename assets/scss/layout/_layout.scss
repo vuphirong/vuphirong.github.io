@@ -12,7 +12,7 @@
             position: relative;
             top: 5px;
             display: block;
-            width: 30%;
+            width: 20%;
             height: 3px;
             background-color: var(--first-color);
         }
@@ -28,4 +28,8 @@
 
 .grid{
     display: grid;
+}
+
+.main {
+    position: relative;
 }

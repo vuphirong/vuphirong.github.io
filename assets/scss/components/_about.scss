@@ -38,9 +38,10 @@
 
         p {
             margin-bottom: 15px;
-            text-align: justify;
             color: #0097BD;
             padding: 0 35px;
+            padding-right: 20px;
+            line-height: 23px;
         }
 
         p:last-child {
@@ -70,13 +71,19 @@
                     width: 30%;
                 }
             }
+
             p {
                 color: #fff;
+                text-align: right;
+                padding-left: 10px;
             }
 
             p:nth-child(3) {
                 font-style: italic;
                 font-size: var(--small-font-size);
+                line-height: 20px;
+                margin-bottom: var(--mb-1-5);
+                padding-left: 35px;
             }
         }
     }

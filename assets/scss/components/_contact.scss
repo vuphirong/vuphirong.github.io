@@ -73,11 +73,16 @@
 
         a {
             background-color: transparent;
-            border: 2px solid #fff;
+            border: 2px solid #FFF;
         }
 
         a:hover {
-            border: 2px solid var(--text-color);
+            border: 2px solid #F3FDFF;
+            background-color: #F3FDFF;
+            
+            span {
+                color: #0097BD;
+            }
         }
 
         a span {

@@ -58,3 +58,35 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+/*=============== POPUP QUESTION ===============*/
+const btnQuestion = document.getElementById('btn-question');
+if(btnQuestion){
+    btnQuestion.addEventListener('click', () =>{
+        const popupQuestion = document.querySelector(btnQuestion.dataset.handle);
+        if (popupQuestion)
+        {
+            popupQuestion.classList.add("show-popup");
+        }
+    })
+}
+
+/*=============== POPUP REPORTS ===============*/
+const btnReport = document.getElementById('btn-report');
+if(btnReport){
+    btnReport.addEventListener('click', () =>{
+        const popupReport = document.querySelector(btnReport.dataset.handle);
+        if (popupReport)
+        {
+            popupReport.classList.add("show-popup");
+        }
+    })
+}
+
+const btnClosePopups = document.getElementsByClassName('btn-close');
+for (let i = 0; i < btnClosePopups.length; i++) {
+    const btnClosePoppup = btnClosePopups[i];
+    btnClosePoppup.addEventListener('click', () =>{
+        document.querySelector('.show-popup').classList.remove('show-popup');
+    })
+}

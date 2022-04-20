@@ -1,0 +1,111 @@
+.popup {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    opacity: 0;
+    z-index: 100;
+    transition: .2s all;
+
+    &__header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section__title {
+        font-size: var(--normal-font-size);
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: flex-end;
+        font-size: var(--biggest-font-size);
+
+        i {
+            transform: translateY(-10px);
+            cursor: pointer;
+        }
+    }
+
+    &__content {
+        position: relative;
+        top: -1000px;
+        opacity: 0;
+        background-color: #fff;
+        margin-left: var(--ml-1-5);
+        margin-right: var(--mr-1-5);
+        border-radius: 20px;
+        padding: 30px 15px;
+        max-width: 767px;
+    }
+}
+
+.show-popup {
+    top: 0;
+    animation-name: show;
+    -webkit-animation-name: show;
+    animation-delay: .2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: .2s;
+    animation-duration: .2s;
+    -webkit-animation-duration: .2s;
+
+    .popup__content {
+        opacity: 100%;
+        animation-name: move;
+        -webkit-animation-name: move;
+        animation-delay: .3s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        -webkit-animation-delay: .3s;
+        animation-duration: .3s;
+        -webkit-animation-duration: .3s;
+    }
+}
+
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+  
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};      
+}
+
+@include keyframes(show) {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@include keyframes(move) {
+    0% {
+        top: -1000px;
+    }
+    100% {
+        top: 0;
+    }
+}
