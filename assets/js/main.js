@@ -1,3 +1,33 @@
+//
+import Translator from "./translator.js";
+
+var translator = new Translator({
+  persist: false,
+  languages: ["vi", "en"],
+  defaultLanguage: "vi",
+  detectLanguage: true,
+  filesLocation: "language"
+});
+
+translator.load("vi");
+
+const btnChangeLang = document.getElementById('btn-change-lang');
+if(btnChangeLang){
+    btnChangeLang.addEventListener('click', () =>{
+        let lang = btnChangeLang.dataset.value;
+        console.log(lang);
+        if (lang === "vi") {
+            lang = "en";
+            btnChangeLang.dataset.value = "en";
+        } else {
+            lang = "vi";
+            btnChangeLang.dataset.value = "vi";
+        }
+        btnChangeLang.src = "./assets/images/" + lang + ".png";
+        translator.load(lang);
+    })
+}
+
 /*=============== SHOW MENU ===============*/
 const navMenu   = document.getElementById('nav-menu');
 const navToggle = document.getElementById('nav-toggle');

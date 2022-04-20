@@ -1,0 +1,16 @@
+{
+    "nav": {
+        "text-1": "Trắc nghiệm DISC",
+        "text-2": "Tính ứng dụng",
+        "text-3": "Khám phá ngay",
+        "text-4": "Jobtest & Đối tác"
+    },
+    "header": {
+        "subtitle": "Đối tác chiến lược",
+        "title": "Bài trắc nghiệm tính cách DISC",
+        "tagline": "Rõ tính cách - Thấu tương lai",
+        "des-1": "Chỉ <b>7 phút</b> để thấu hiểu tính cách cá nhân qua hệ thống <b>24 câu hỏi</b>.",
+        "des-2": "Bài trắc nghiệm trên nền tảng <b>JobTest</b> được đảm bảo tính khoa học từ đối tác chiến lược <b>Everything DiSC</b>.",
+        "btn": "Khám phá ngay"
+    }
+}
