@@ -15,7 +15,6 @@ const btnChangeLang = document.getElementById('btn-change-lang');
 if(btnChangeLang){
     btnChangeLang.addEventListener('click', () =>{
         let lang = btnChangeLang.dataset.value;
-        console.log(lang);
         if (lang === "vi") {
             lang = "en";
             btnChangeLang.dataset.value = "en";
@@ -24,7 +23,18 @@ if(btnChangeLang){
             btnChangeLang.dataset.value = "vi";
         }
         btnChangeLang.src = "./assets/images/" + lang + ".png";
+
+        let imgIntroduce = document.querySelectorAll(".introduction__img")[0]; // Chỉ sử dụng 1 class này
+        imgIntroduce.src = "./assets/images/introduce-" + lang + ".png";
+
         translator.load(lang);
+        
+        setTimeout(() => {
+            document.getElementById('input-name').placeholder = translator._objectLang["contact"].name;
+            document.getElementById('input-major').placeholder = translator._objectLang["contact"].career;
+            document.getElementById('input-phone').placeholder = translator._objectLang["contact"].phone;
+            document.getElementById('input-mail').placeholder = translator._objectLang["contact"].mail;
+        }, 10);
     })
 }
 

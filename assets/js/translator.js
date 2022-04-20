@@ -2,6 +2,7 @@ class Translator {
     constructor(options = {}) {
       this._options = Object.assign({}, this.defaultConfig, options);
       this._lang = this.getLanguage();
+      this._objectLang = {};
       this._elements = document.querySelectorAll("[data-i18n]");
     }
   
@@ -37,6 +38,7 @@ class Translator {
       fetch(path)
         .then(res => res.json())
         .then(translation => {
+          this._objectLang = translation;
           this.translate(translation);
           this.toggleLangTag();
   

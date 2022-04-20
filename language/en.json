@@ -3,7 +3,7 @@
         "text-1": "DISC Asessment",
         "text-2": "Applicability",
         "text-3": "Explore now",
-        "text-4": "Jobtest & Partner"
+        "text-4": "Jobtest & Partners"
     },
     "header": {
         "subtitle": "Strategic partnership",
@@ -12,5 +12,92 @@
         "des-1": "Spend only <b>7 minutes</b> to find out what is your personality throught our well-prepared system of <b>24 questions</b>.",
         "des-2": "<b>Jobtest’s Science-based</b> questionaire is backed by our strategic partner <b>Everything DISC</b>.",
         "btn": "Explore now"
+    },
+    "introduce": {
+        "title": "What is DISC Assessment?",
+        "text-1": "<b>DISC personality asessment</b> applies psychological research tool of Dr. William Moulton Marston at Harvard University, known as a tool to identify and predict a person's personality and behavior. The DISC theory was developed in 1928, but after nearly 100 years, the DISC method is still widely used in management disciplines.",
+        "text-2": "<b>The DISC method</b> uses two pairs of opposing categories:",
+        "text-3": "Active - Passive",
+        "text-4": "Work-oriented - People-oriented",
+        "text-5": "Through identifying the typical characteristics of those two pairs of opposites, the results will give you 4 personality groups <b>D - I - S - C</b> showing the outstanding personality of that person at work.",
+        "btn": "Start your assessment"
+    },
+    "benefit": {
+        "title": "The applicability of the DISC Assessment",
+        "text-1": "Appropriate career orientation",
+        "text-2": "Enhance communication skills",
+        "text-3": "Building management capacity - leadership",
+        "text-4": "Resolving personal conflicts",
+        "text-5": "Enhance work skills and productivity",
+        "text-6": "Choose your goals and make smart decisions",
+        "btn": "Explore yourself"
+    },
+    "question": {
+        "title": "Sample Question and Report",
+        "text-1": "The system of <b>24 situational questions</b> will help the system identify typical characteristics of 4 personality groups",
+        "text-2": "<b>The JobTest report</b> will show the overall results and 10 analytical issues from your personality results",
+        "btn-1": "Sample Questions",
+        "btn-2": "Sample Report"
+    },
+    "process": {
+        "title": "Implementation process",
+        "text-1": "Fill in personal information",
+        "text-2": "Take the quiz",
+        "text-3": "Receive reports by mail"
+    },
+    "product": {
+        "title": "Enhance the experience with 2 versions",
+        "text-1": "25-question multiple-choice test",
+        "text-2": "Personality overview report",
+        "text-3": "Detailed report on <b>10 personality</b> problems",
+        "text-4": "*Until 15th of May, 2022"
+    },
+    "contact": {
+        "title": "Discover personality according to DISC",
+        "subtitle": "Personal information",
+        "name": "Your name",
+        "career": "Your Major",
+        "phone": "Your Phone Number",
+        "mail": "Your Mail",
+        "btn":  "Explore Yourself"
+    },
+    "about": {
+        "subtitle-1": "Deployment unit",
+        "text-1": "JobTest is an international standard human resource development consulting company based on a combination of leading HR and Technology experts. Application of artificial intelligence (AI), connected things (IOT - Internet of things), digital human resources (Digital workforce) and digital platforms (Platform, Blockchain, Big data).",
+        "text-2": "Currently, JobTest is the leading online career guidance and competency assessment platform in Vietnam, as well as a provider of international standard human resource solutions, creating high-quality human resources for businesses.",
+        "subtitle-2": "Strategic partnership",
+        "text-3": "In December 2021, JobTest Human Resource Development Consulting Company officially became the first strategic partner of Everything DiSC in Vietnam.",
+        "text-4": "Everything DiSC - a brand of John Wiley and Sons Group - which has the largest book library platform in the world. Wiley and Sons contributes to improving work performance, providing experience and efficiency for human resource development, teamwork, talent discovery, leadership development for individuals and businesses worldwide bridge."
+    },
+    "footer": {
+        "title-1": "About Jobtest",
+        "text-1": "Introduction",
+        "text-2": "Contact",
+        "text-3": "Privacy Policy",
+        "title-2": "For Individual Customer",
+        "text-4": "Self-Assessment",
+        "text-5": "Career assessment",
+        "text-6": "Courses",
+        "text-7": "Career information",
+        "text-8": "Recruitment day - enrollment",
+        "text-9": "News",
+        "title-3": "For Enterprise Partner",
+        "text-10": "Online Competency Assessment",
+        "text-11": "Competency Framework & Competency Dictionary",
+        "text-12": "AiHR - Human Resource Management Software",
+        "text-13": "Payroll Service",
+        "text-14": "Outsourcing personnel",
+        "text-15": "Check reference",
+        "text-16": "Recruiting senior personnel",
+        "text-17": "Centralized recruitment",
+        "title-4": "Collaberation",
+        "text-18": "Career Expert",
+        "text-19": "Education & training organization",
+        "text-20": "Copyright © 2017 - 2022 belongs to",
+        "text-21": "JobTest Human Resource Development Consulting Company",
+        "text-22": "Our Headquarters:",
+        "text-23": "P1-2.43, 2nd Floor, The Prince Residence Building, 19-21 Nguyen Van Troi, Ward 11, Phu Nhuan District, HCMC, VN",
+        "text-24": "Our Branch:",
+        "text-25": "Room 403 Ocean Park Building, 1 Dao Duy Anh, Phuong Mai Ward, Dong Da District, Hanoi, VN"
     }
 }
