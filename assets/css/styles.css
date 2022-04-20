@@ -311,7 +311,6 @@ button {
 .nav {
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .nav__logo {
@@ -355,9 +354,10 @@ button {
 }
 .nav__link {
   text-transform: uppercase;
-  font-weight: var(--font-semi-bold);
+  font-weight: var(--font-medium);
   color: var(--title-color);
   font-family: var(--title-font);
+  font-size: var(--small-font-size);
   transition: 0.4s;
 }
 .nav__link:hover {

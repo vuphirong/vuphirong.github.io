@@ -12,7 +12,6 @@
 .nav {
     height: var(--header-height);
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     &__logo {
@@ -62,9 +61,10 @@
 
     &__link {
         text-transform: uppercase;
-        font-weight: var(--font-semi-bold);
+        font-weight: var(--font-medium);
         color: var(--title-color);
         font-family: var(--title-font);
+        font-size: var(--small-font-size);
         transition: .4s;
     }
 
