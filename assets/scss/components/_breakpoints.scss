@@ -52,6 +52,7 @@
 
 @media screen and (min-width: 767px){
     .nav {
+        justify-content: unset;
 
         &__img,
         &__close,
@@ -264,6 +265,12 @@
         }
         &__description {
             max-width: 470px;
+        }
+        &__title {
+            font-size: 46px;
+        }
+        &__tagline {
+            font-size: 22px;
         }
     }
 

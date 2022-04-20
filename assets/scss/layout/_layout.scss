@@ -1,6 +1,6 @@
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
-    padding: 50px 0 50px;
+    padding: calc(var(--header-height) + 1rem) 0 calc(var(--header-height) + 1rem);
 
     &__title{
         font-size: var(--h1-font-size);

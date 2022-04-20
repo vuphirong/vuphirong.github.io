@@ -139,7 +139,7 @@ button {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 50px 0 50px;
+  padding: calc(var(--header-height) + 1rem) 0 calc(var(--header-height) + 1rem);
 }
 .section__title {
   font-size: var(--h1-font-size);
@@ -312,6 +312,7 @@ button {
   height: var(--header-height);
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .nav__logo {
   display: flex;
@@ -957,6 +958,10 @@ button {
   align-items: center;
 }
 
+.footer.section {
+  padding: 50px 0;
+}
+
 .popup {
   position: fixed;
   top: -100vh;
@@ -1140,6 +1145,9 @@ button {
   }
 }
 @media screen and (min-width: 767px) {
+  .nav {
+    justify-content: unset;
+  }
   .nav__img, .nav__close, .nav__toggle {
     display: none;
   }
@@ -1303,6 +1311,12 @@ button {
   }
   .home__description {
     max-width: 470px;
+  }
+  .home__title {
+    font-size: 46px;
+  }
+  .home__tagline {
+    font-size: 22px;
   }
 
   .benefit__data {
