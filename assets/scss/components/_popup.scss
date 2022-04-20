@@ -8,6 +8,8 @@
     opacity: 0;
     z-index: 100;
     transition: .2s all;
+    padding-top: 50px!important;
+    padding-bottom: 50px!important;
 
     &__header {
         display: grid;
@@ -39,6 +41,17 @@
         border-radius: 20px;
         padding: 30px 15px;
         max-width: 767px;
+        max-height: calc(100vh - 100px);
+    }
+}
+
+#popup-reports {
+    .popup__body {
+        height: calc(100vh - 230px);
+
+        iframe {
+            height: 100%;
+        }
     }
 }
 

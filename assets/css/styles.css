@@ -859,6 +859,10 @@ button {
   border-radius: 20px;
   margin-bottom: 30px;
 }
+.about__img {
+  object-fit: cover;
+  object-position: center;
+}
 .about__box:last-child {
   margin-bottom: 0;
 }
@@ -995,6 +999,8 @@ button {
   opacity: 0;
   z-index: 100;
   transition: 0.2s all;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 .popup__header {
   display: grid;
@@ -1022,6 +1028,14 @@ button {
   border-radius: 20px;
   padding: 30px 15px;
   max-width: 767px;
+  max-height: calc(100vh - 100px);
+}
+
+#popup-reports .popup__body {
+  height: calc(100vh - 230px);
+}
+#popup-reports .popup__body iframe {
+  height: 100%;
 }
 
 .show-popup {
@@ -1387,7 +1401,6 @@ button {
   }
   .contact__img {
     position: absolute;
-    right: -15px;
     margin-left: 25px;
     transform: translateY(20px);
     max-width: 450px;
@@ -1399,7 +1412,7 @@ button {
 
   .footer__top {
     display: grid;
-    grid-template-columns: 160px 245px 245px 245px;
+    grid-template-columns: 160px 245px 245px auto;
     gap: 2rem;
   }
   .footer__divider {

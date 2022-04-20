@@ -5,6 +5,11 @@
         margin-bottom: 30px;
     }
 
+    &__img {
+        object-fit: cover;
+        object-position: center;
+    }
+
     &__box:last-child {
         margin-bottom: 0;
     }
