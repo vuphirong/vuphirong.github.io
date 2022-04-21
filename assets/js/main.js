@@ -30,10 +30,10 @@ if(btnChangeLang){
         translator.load(lang);
         
         setTimeout(() => {
-            document.getElementById('input-name').placeholder = translator._objectLang["contact"].name;
-            document.getElementById('input-major').placeholder = translator._objectLang["contact"].career;
-            document.getElementById('input-phone').placeholder = translator._objectLang["contact"].phone;
-            document.getElementById('input-mail').placeholder = translator._objectLang["contact"].mail;
+            // document.getElementById('input-name').placeholder = translator._objectLang["contact"].name;
+            // document.getElementById('input-major').placeholder = translator._objectLang["contact"].career;
+            // document.getElementById('input-phone').placeholder = translator._objectLang["contact"].phone;
+            // document.getElementById('input-mail').placeholder = translator._objectLang["contact"].mail;
         }, 10);
     })
 }
@@ -130,3 +130,28 @@ for (let i = 0; i < btnClosePopups.length; i++) {
         document.querySelector('.show-popup').classList.remove('show-popup');
     })
 }
+
+/*=============== SIGN IN / SIGN UP ===============*/
+const navContact = document.querySelectorAll('.contact__nav--link')
+
+function contactAction(event){
+    event.preventDefault();
+    document.querySelector('.contact__nav--active').classList.remove('contact__nav--active');
+    this.classList.add('contact__nav--active');
+
+    let handle = this.dataset.handle;
+
+    console.log(handle);
+
+    if (handle === "#contact-login") {
+        document.querySelector(this.dataset.handle).classList.add('contact__login-active');
+        document.querySelector("#contact-register").classList.remove('contact__register-active');
+    } else {
+        document.querySelector("#contact-login").classList.remove('contact__login-active');
+        document.querySelector("#contact-register").classList.add('contact__register-active');
+    }
+
+    
+    
+}
+navContact.forEach(n => n.addEventListener('click', contactAction))
