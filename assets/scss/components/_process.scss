@@ -18,7 +18,8 @@
     }
 
     &__img {
-        transform: scale(1.4) translate(30%, -20px);
+        position: absolute;
+        transform: translateY(-100px);
     }
 
     &__num {

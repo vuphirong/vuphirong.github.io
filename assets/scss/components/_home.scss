@@ -48,8 +48,15 @@
     }
 
     &__mb {
-        // display: none;
         margin-bottom: 27px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img:last-child {
+            width: 100px;
+            margin-left: 20px;
+        }
     }
 
     &__title {

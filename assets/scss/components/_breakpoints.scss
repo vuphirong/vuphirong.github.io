@@ -1,5 +1,17 @@
 /* For small devices */
 @media screen and (max-width: 320px){
+    .home {
+        &__mb {
+            flex-direction: column;
+            align-items: start;
+            img:last-child {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    }
+        
+
     .container{
         margin-left: var(--ml-1);
         margin-right: var(--mr-1);
@@ -9,6 +21,7 @@
 /* For medium devices */
 @media screen and (min-width: 576px){
     .home {
+
         &__img {
             width: 350px;
             height: auto;
