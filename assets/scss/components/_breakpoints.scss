@@ -52,6 +52,11 @@
         &__box:nth-child(2n + 1) {
             margin-right: 16px;
         }
+
+        &__img {
+            width: 66px;
+            height: 66px;
+        }
     }
 
     .footer {

@@ -626,8 +626,8 @@ button {
   padding: 23px;
 }
 .benefit__img {
-  width: 76px;
-  height: 76px;
+  width: 60px;
+  height: 60px;
   margin-right: 23px;
 }
 .benefit__buttons {
@@ -1344,6 +1344,10 @@ button {
   }
   .benefit__box:nth-child(2n+1) {
     margin-right: 16px;
+  }
+  .benefit__img {
+    width: 66px;
+    height: 66px;
   }
 
   .footer__top {
