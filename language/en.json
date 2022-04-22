@@ -54,12 +54,22 @@
     },
     "contact": {
         "title": "Discover personality according to DISC",
-        "subtitle": "Personal information",
-        "name": "Your name",
-        "career": "Your Major",
-        "phone": "Your Phone Number",
-        "mail": "Your Mail",
-        "btn":  "Explore Yourself"
+        "subtitle": "Join JobTest today and discover yourself!",
+        "surname": "Surname",
+        "p-surname": "Input your surname",
+        "name": "Name",
+        "p-name": "Input your name",
+        "mail": "Email",
+        "p-mail": "Input your email address",
+        "password": "Password",
+        "p-password": "Input your password",
+        "con-password": "Password confirmation",
+        "p-con-password": "Re-input your password?",
+        "text-1": "Fotgot your password",
+        "text-2": "Or sign-in with your social accounts",
+        "text-3": "Or sign-up  with your social accounts",
+        "btn-1":  "Sign-in",
+        "btn-2":  "Sign-up"
     },
     "about": {
         "subtitle-1": "Deployment unit",

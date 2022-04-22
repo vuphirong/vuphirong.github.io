@@ -54,12 +54,22 @@
     },
     "contact": {
         "title": "Khám phá tính cách theo DISC",
-        "subtitle": "Đăng ký nhận thông tin",
-        "name": "Họ tên",
-        "career": "Nghề nghiệp",
-        "phone": "Số điện thoại",
+        "subtitle": "Tham gia trắc nghiệm với JobTest ngay hôm nay!",
+        "surname": "Họ",
+        "p-surname": "Nhập họ của bạn",
+        "name": "Tên",
+        "p-name": "Nhập tên của bạn",
         "mail": "Email",
-        "btn":  "Trải nghiệm ngay"
+        "p-mail": "Nhập email của bạn",
+        "password": "Mật khẩu",
+        "p-password": "Nhập mật khẩu",
+        "con-password": "Xác nhận mật khẩu",
+        "p-con-password": "Nhập xác nhận mật khẩu",
+        "text-1": "Quên mật khẩu?",
+        "text-2": "Hoặc đăng nhập bằng tài khoản mạng xã hội",
+        "text-3": "Hoặc đăng ký bằng tài khoản mạng xã hội",
+        "btn-1":  "Đăng nhập",
+        "btn-2":  "Đăng ký"
     },
     "about": {
         "subtitle-1": "Đơn vị triển khai",

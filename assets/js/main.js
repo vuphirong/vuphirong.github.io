@@ -30,10 +30,14 @@ if(btnChangeLang){
         translator.load(lang);
         
         setTimeout(() => {
-            // document.getElementById('input-name').placeholder = translator._objectLang["contact"].name;
-            // document.getElementById('input-major').placeholder = translator._objectLang["contact"].career;
-            // document.getElementById('input-phone').placeholder = translator._objectLang["contact"].phone;
-            // document.getElementById('input-mail').placeholder = translator._objectLang["contact"].mail;
+            document.getElementById('input-login-mail').placeholder = translator._objectLang["contact"]["p-mail"];
+            document.getElementById('input-login-pass').placeholder = translator._objectLang["contact"]["p-password"];
+
+            document.getElementById('input-register-first-name').placeholder = translator._objectLang["contact"]["p-surname"];
+            document.getElementById('input-register-last-name').placeholder = translator._objectLang["contact"]["p-name"];
+            document.getElementById('input-register-mail').placeholder = translator._objectLang["contact"]["p-mail"];
+            document.getElementById('input-register-pass').placeholder = translator._objectLang["contact"]["p-password"];
+            document.getElementById('input-register-confirm-pass').placeholder = translator._objectLang["contact"]["p-con-password"];
         }, 10);
     })
 }
