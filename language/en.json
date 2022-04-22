@@ -64,12 +64,12 @@
         "password": "Password",
         "p-password": "Input your password",
         "con-password": "Password confirmation",
-        "p-con-password": "Re-input your password?",
-        "text-1": "Fotgot your password",
+        "p-con-password": "Re-input your password",
+        "text-1": "Fotgot your password?",
         "text-2": "Or sign-in with your social accounts",
         "text-3": "Or sign-up  with your social accounts",
-        "btn-1":  "Sign-in",
-        "btn-2":  "Sign-up"
+        "btn-1":  "Sign In",
+        "btn-2":  "Sign Up"
     },
     "about": {
         "subtitle-1": "Deployment unit",
