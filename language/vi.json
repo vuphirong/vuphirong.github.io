@@ -1,83 +1,85 @@
 {
     "nav": {
-        "text-1": "Trắc nghiệm DISC",
-        "text-2": "Tính ứng dụng",
-        "text-3": "Khám phá ngay",
-        "text-4": "Jobtest & Đối tác"
+        "text-1":       "Trắc nghiệm iTalent",
+        "text-2":       "Thông tin chi tiết",
+        "text-3":       "Khám phá ngay",
+        "text-4":       "Jobtest & Đối tác"
     },
     "header": {
-        "subtitle": "Đối tác chiến lược",
-        "title": "Bài trắc nghiệm tính cách DISC",
-        "tagline": "Rõ tính cách - Thấu tương lai",
-        "des-1": "Chỉ <b>7 phút</b> để thấu hiểu tính cách cá nhân qua hệ thống <b>24 câu hỏi</b>.",
-        "des-2": "Bài trắc nghiệm trên nền tảng <b>JobTest</b> được đảm bảo tính khoa học từ đối tác chiến lược <b>Everything DiSC</b>.",
-        "btn": "Khám phá ngay"
+        "subtitle":     "Đối tác chiến lược",
+        "title":        "Bài trắc nghiệm nghề nghiệp <span>iTalent</span>",
+        "tagline":      "Khám phá tài năng - Chọn ngành mơ ước",
+        "des-1":        "Khám phá toàn diện tính cách, khả năng và sở thích trong <b>45 phút</b>.</span>",
+        "des-2":        "Thiết kế đặc biệt dành riêng cho học sinh từ lớp 6 - 12 với chứng nhận khoa học từ đối tác chiến lược <b>IBM Kenexa</b> và <b>Everything DiSC</b>.",
+        "btn":          "Khám phá ngay"
     },
     "introduce": {
-        "title": "Trắc nghiệm DISC là gì?",
-        "text-1": "<b>Bài trắc nghiệm tính cách DISC</b> áp dụng công trình nghiên cứu tâm lý học của Tiến sĩ William Moulton Marston tại Đại học Harvard, được biết đến như một công cụ xác định và dự đoán tính cách, hành vi của một người. Lý thuyết DISC được phát triển từ những năm 1928 nhưng sau gần 100 năm, phương pháp DISC vẫn được ứng dụng rộng rãi trong các ngành nghề về quản trị con người.",
-        "text-2": "<b>Phương pháp DISC</b> sử dụng 2 cặp phạm trù đối lập:",
-        "text-3": "Nhanh nhẹn - Chậm rãi",
-        "text-4": "Tập trung công việc - Tập trung con người",
-        "text-5": "Thông qua xác định các đặc điểm tiêu biểu của 2 cặp đối lập đó, kết quả sẽ cho ra 4 nhóm tính cách <b>D - I - S - C</b> thể hiện tính cách nổi bật của người đó trong công việc",
-        "btn": "Trải nghiệm ngay"
+        "title":        "Trắc nghiệm nghề nghiệp iTalent là gì?",
+        "text-1":       "<b>Trắc nghiệm nghề nghiệp học sinh - iTalent</b> là phương pháp trắc nghiệm giúp học sinh kiến tạo sự nghiệp mơ ước dựa trên 3 yếu tố: khả năng, tính cách và sở thích nghề nghiệp.",
+        "text-2":       "Bài trắc nghiệm được thiết kế đặc biệt dành riêng cho <b>học sinh từ lớp 6 - 12</b>, giúp các bạn có cái nhìn toàn diện về bản thân. Từ đó nâng cao nhận thức định hướng nghề nghiệp và phát triển bản thân trong tương lai.",
+        "text-3":       "<b>Trắc nghiệm nghề nghiệp iTalent</b> trên nền tảng <b>JobTest</b> tự hào đã đồng hành cùng hơn 200,000 học sinh, sinh viên trên cả nước và quốc tế đến từ hơn 50 trường THPT, Đại học hàng đầu: Vinschool, UNIST Hàn Quốc, SMU Singapore, Đại học Kinh Tế Luật, Đại học FPT, …",
+        "btn":          "Trải nghiệm ngay"
     },
     "benefit": {
-        "title": "Tính ứng dụng của trắc nghiệm DISC",
-        "text-1": "Định hướng nghề nghiệp phù hợp",
-        "text-2": "Tăng cường kỹ năng giao tiếp",
-        "text-3": "Xây dựng năng lực quản lý - lãnh đạo",
-        "text-4": "Giải quyết các xung đột cá nhân",
-        "text-5": "Tăng cường kỹ năng và năng suất làm việc",
-        "text-6": "Chọn mục tiêu và quyết định thông minh",
-        "btn": "Trải nghiệm ngay"
+        "title":        "Tính ứng dụng trắc nghiệm nghề nghiệp iTalent",
+        "text-1":       "Định hướng nghề nghiệp phù hợp",
+        "text-2":       "Khám phá xu hướng tính cách",
+        "text-3":       "Nhận thức khả năng bẩm sinh",
+        "text-4":       "Thấu hiểu sở thích nghề nghiệp",
+        "text-5":       "Tăng cường kỹ năng và năng suất học tập",
+        "text-6":       "Phát triển bản thân và tạo dựng thương hiệu cá nhân",
+        "btn":          "Trải nghiệm ngay"
+    },
+    "structure": {
+        "title":        "Cấu trúc trắc nghiệm nghề nghiệp iTalent",
+        "text-1":       "Trắc nghiệm"
     },
     "question": {
-        "title": "Câu hỏi & Báo cáo mẫu",
-        "text-1": "Hệ thống <b>24 câu hỏi</b> nhận định và tình huống sẽ giúp hệ thống xác định đặc điểm tiêu biểu của 4 nhóm tính cách",
-        "text-2": "<b>Báo cáo</b> của JobTest sẽ cho thấy kết quả tổng quan và 10 khía cạnh phân tích từ kết quả tính cách của bạn",
-        "btn-1": "Câu hỏi mẫu",
-        "btn-2": "Báo cáo mẫu"
+        "title":        "Câu hỏi & Báo cáo mẫu",
+        "text-1":       "Hệ thống <b>120 câu hỏi</b> nhận định, tình huống, bài tập thực tiễn cho từng phần đánh giá chuyên biệt",
+        "text-2":       "<b>Báo cáo</b> sẽ cho thấy kết quả tổng quan và phân tích chi tiết khả năng, tính cách và sở thích nghề nghiệp của bạn",
+        "btn-1":        "Câu hỏi mẫu",
+        "btn-2":        "Báo cáo mẫu"
     },
     "process": {
-        "title": "Quy trình thực hiện",
-        "text-1": "Điền thông tin cá nhân",
-        "text-2": "Thực hiện trắc nghiệm",
-        "text-3": "Nhận báo cáo qua mail"
+        "title":        "Quy trình thực hiện",
+        "text-1":       "Điền thông tin cá nhân",
+        "text-2":       "Thực hiện trắc nghiệm",
+        "text-3":       "Nhận báo cáo qua mail"
     },
     "product": {
-        "title": "Nâng cao trải nghiệm với 2 phiên bản",
-        "text-1": "Bài trắc nghiệm 24 câu hỏi",
-        "text-2": "Báo cáo tổng quan tính cách",
-        "text-3": "Báo cáo chi tiết <b>10 khía cạnh</b> tính cách",
-        "text-4": "*Đến hết ngày 15/5/2022"
+        "title":        "Nâng cao trải nghiệm với 2 phiên bản",
+        "text-1":       "Bài trắc nghiệm 120 câu hỏi",
+        "text-2":       "Báo cáo tổng quan kết quả nghề nghiệp",
+        "text-3":       "Báo cáo phân tích chi tiết",
+        "text-4":       "*Đến hết ngày 19/06/2022"
     },
     "contact": {
-        "title": "Khám phá tính cách theo DISC",
-        "subtitle": "Tham gia trắc nghiệm với JobTest ngay hôm nay!",
-        "surname": "Họ",
-        "p-surname": "Nhập họ của bạn",
-        "name": "Tên",
-        "p-name": "Nhập tên của bạn",
-        "mail": "Email",
-        "p-mail": "Nhập email của bạn",
-        "password": "Mật khẩu",
-        "p-password": "Nhập mật khẩu",
+        "title":        "Khám phá toàn diện bản thân với iTalent",
+        "subtitle":     "Tham gia trắc nghiệm với JobTest ngay hôm nay!",
+        "surname":      "Họ",
+        "p-surname":    "Nhập họ của bạn",
+        "name":         "Tên",
+        "p-name":       "Nhập tên của bạn",
+        "mail":         "Email",
+        "p-mail":       "Nhập email của bạn",
+        "password":     "Mật khẩu",
+        "p-password":   "Nhập mật khẩu",
         "con-password": "Xác nhận mật khẩu",
-        "p-con-password": "Nhập xác nhận mật khẩu",
-        "text-1": "Quên mật khẩu?",
-        "text-2": "Hoặc đăng nhập bằng tài khoản mạng xã hội",
-        "text-3": "Hoặc đăng ký bằng tài khoản mạng xã hội",
-        "btn-1":  "Đăng nhập",
-        "btn-2":  "Đăng ký"
+        "p-con-password":      "Nhập xác nhận mật khẩu",
+        "text-1":       "Quên mật khẩu?",
+        "text-2":       "Hoặc đăng nhập bằng tài khoản mạng xã hội",
+        "text-3":       "Hoặc đăng ký bằng tài khoản mạng xã hội",
+        "btn-1":        "Đăng nhập",
+        "btn-2":        "Đăng ký"
     },
     "about": {
-        "subtitle-1": "Đơn vị triển khai",
-        "text-1": "JobTest là công ty tư vấn phát triển nguồn nhân lực theo chuẩn quốc tế dựa trên sự kết hợp giữa các Chuyên gia nhân sự và Công nghệ hàng đầu. Ứng dụng trí tuệ nhân tạo (AI), vạn vật kết nối (IOT -Internet of things), nguồn nhân lực số (Digital workforce) và nền tảng số (Platform, Blockchain, Big data).",
-        "text-2": "Hiện tại, JobTest là nền tảng hướng nghiệp, Đánh giá năng lực trực tuyến hàng đầu tại Việt Nam, đồng thời là đơn vị cung cấp các giải pháp nhân sự chuẩn quốc tế, kiến tạo nguồn nhân lực chất lượng cao cho doanh nghiệp.",
-        "subtitle-2": "Đối tác chiến lược",
-        "text-3": "Tháng 12/2021, Công ty Tư vấn phát triển nguồn nhân lực JobTest chính thức trở thành đối tác chiến lược đầu tiên của Everything DiSC tại Việt Nam",
-        "text-4": "Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu"
+        "subtitle-1":   "Đơn vị triển khai",
+        "text-1":       "JobTest là công ty tư vấn phát triển nguồn nhân lực theo chuẩn quốc tế dựa trên sự kết hợp giữa các Chuyên gia nhân sự và Công nghệ hàng đầu. Ứng dụng trí tuệ nhân tạo (AI), vạn vật kết nối (IOT -Internet of things), nguồn nhân lực số (Digital workforce) và nền tảng số (Platform, Blockchain, Big data).",
+        "text-2":       "Hiện tại, JobTest là nền tảng hướng nghiệp, Đánh giá năng lực trực tuyến hàng đầu tại Việt Nam, đồng thời là đơn vị cung cấp các giải pháp nhân sự chuẩn quốc tế, kiến tạo nguồn nhân lực chất lượng cao cho doanh nghiệp.",
+        "subtitle-2":   "Đối tác chiến lược",
+        "text-3":       "Tháng 12/2021, Công ty Tư vấn phát triển nguồn nhân lực JobTest chính thức trở thành đối tác chiến lược đầu tiên của Everything DiSC tại Việt Nam",
+        "text-4":       "Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu"
     },
     "footer": {
         "title-1": "Về JobTest",
@@ -108,6 +110,8 @@
         "text-22": "Trụ sở:",
         "text-23": "P1-2.43, Tầng 2, toà nhà The Prince Residence, 19-21 Nguyễn Văn Trỗi, Phường 11, Quận Phú Nhuận, TPHCM, VN",
         "text-24": "Chi nhánh:",
-        "text-25": "Phòng 403 tòa nhà Ocean Park, 1 Đào Duy Anh, Phường Phương Mai, Quận Đống Đa, Hà Nội, VN"
+        "text-25": "Phòng 403 tòa nhà Ocean Park, 1 Đào Duy Anh, Phường Phương Mai, Quận Đống Đa, Hà Nội, VN",
+        "text-26": "<b>Email:</b> info@jobtest.vn",
+        "text-27": "<b>Hotline:</b> 028 6681 9668"
     }
 }

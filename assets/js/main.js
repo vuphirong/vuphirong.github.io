@@ -22,10 +22,6 @@ if(btnChangeLang){
             lang = "vi";
             btnChangeLang.dataset.value = "vi";
         }
-        btnChangeLang.src = "./assets/images/" + lang + ".png";
-
-        let imgIntroduce = document.querySelectorAll(".introduction__img")[0]; // Chỉ sử dụng 1 class này
-        imgIntroduce.src = "./assets/images/introduce-" + lang + ".png";
 
         translator.load(lang);
         
@@ -144,8 +140,6 @@ function contactAction(event){
     this.classList.add('contact__nav--active');
 
     let handle = this.dataset.handle;
-
-    console.log(handle);
 
     if (handle === "#contact-login") {
         document.querySelector(this.dataset.handle).classList.add('contact__login-active');

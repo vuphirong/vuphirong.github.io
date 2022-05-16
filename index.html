@@ -35,7 +35,12 @@
                         </li>
                     </ul>
                     <div class="nav__flag">
-                        <img src="assets/images/vi.png" alt="vi" class="nav__language" id="btn-change-lang" data-value="vi">
+                        <div class="header__switch">
+                            <input id="btn-change-lang" class="header__check--toggle header__check--toggle-round" data-value="vi" type="checkbox">
+                            <label for="btn-change-lang"></label>
+                            <span class="header__switch--on">VI</span>
+                            <span class="header__switch--off">EN</span>
+                        </div>
                     </div>
                 </div>
                 <div class="nav__close" id="nav-close">
@@ -47,7 +52,7 @@
             </div>
         </nav>
     </header>
-
+    <!--========== MAIN ==========-->
     <main class="main">
         <!--========== HOME ==========-->
         <section class="home" id="home">
@@ -58,19 +63,19 @@
                         <img src="assets/images/home.png" alt="home-img" class="home__img">
                     </div>
                     <div class="home__data grid">
-                        <h3 class="home__subtitle" data-i18n="header.subtitle">Đối tác chiến lược</h3>
+                        <h3 class="home__subtitle" data-i18n="header.subtitle"></h3>
                         <div class="home__mb">
                             <img src="assets/images/partner.png" alt="partner-img">
                             <img src="assets/images/partner-2.png" alt="partner-img">
                         </div>
-                        <h1 class="home__title" data-i18n="header.title">Bài trắc nghiệm tính cách DISC</h1>
-                        <h3 class="home__tagline" data-i18n="header.tagline">Rõ tính cách - Thấu tương lai</h3>
+                        <h1 class="home__title" data-i18n="header.title"></h1>
+                        <h3 class="home__tagline" data-i18n="header.tagline"></h3>
                         <ul class="home__description">
-                            <li><span data-i18n="header.des-1">Chỉ <b>7 phút</b> để thấu hiểu tính cách cá nhân qua hệ thống <b>24 câu hỏi</b>.</span></li>
-                            <li><span data-i18n="header.des-2">Bài trắc nghiệm trên nền tảng <b>JobTest</b> được đảm bảo tính khoa học từ đối tác chiến lược <b>Everything DiSC</b>.</span></li>
+                            <li><span data-i18n="header.des-1"></li>
+                            <li><span data-i18n="header.des-2"></span></li>
                         </ul>
                         <div class="home__buttons">
-                            <a href="#contact" class="button"><span data-i18n="header.btn">Khám phá ngay</span></a>
+                            <a href="#contact" class="button"><span data-i18n="header.btn"></span></a>
                         </div>
                     </div>
                 </div>
@@ -79,30 +84,22 @@
         <!--========== INTRODUCTION ==========-->
         <section class="introduction section" id="introduction">
             <div class="container">
-                <h2 class="section__title" data-i18n="introduce.title">Trắc nghiệm DISC là gì?</h2>
+                <h2 class="section__title" data-i18n="introduce.title"></h2>
                 <div class="grid">
                     <div class="introduction__content grid">
                         <div class="introduction__data">
                             <div class="introduction__text">
-                                <p data-i18n="introduce.text-1">
-                                    <b>Bài trắc nghiệm tính cách DISC</b> áp dụng công trình nghiên cứu tâm lý học của Tiến sĩ William Moulton Marston tại Đại học Harvard, được biết đến như một công cụ xác định và dự đoán tính cách, hành vi của một người. Lý thuyết DISC được phát triển từ những năm 1928 nhưng sau gần 100 năm, phương pháp DISC vẫn được ứng dụng rộng rãi trong các ngành nghề về quản trị con người.
-                                </p>
-                                <ul>
-                                    <li><span data-i18n="introduce.text-2"><b>Phương pháp DISC</b> sử dụng 2 cặp phạm trù đối lập:</span></li>
-                                    <li><span data-i18n="introduce.text-3">Nhanh nhẹn - Chậm rãi</span></li>
-                                    <li><span data-i18n="introduce.text-4">Tập trung công việc - Tập trung con người</span></li>
-                                </ul>
-                                <p data-i18n="introduce.text-5">
-                                    Thông qua xác định các đặc điểm tiêu biểu của 2 cặp đối lập đó, kết quả sẽ cho ra 4 nhóm tính cách <b>D - I - S - C</b> thể hiện tính cách nổi bật của người đó trong công việc
-                                </p>
+                                <p data-i18n="introduce.text-1"></p>
+                                <p data-i18n="introduce.text-2"></p>
+                                <p data-i18n="introduce.text-3"></p>
                             </div>
                         </div>
                         <div class="introduction__group">
-                            <img src="assets/images/introduce-vi.png" alt="introduce-img" class="introduction__img">
+                            <img src="assets/images/introduce.png" alt="introduce-img" class="introduction__img">
                         </div>
                     </div>
                     <div class="introduction__buttons">
-                        <a href="#contact" class="button"><span data-i18n="introduce.btn">Trải nghiệm ngay</span></a>
+                        <a href="#contact" class="button"><span data-i18n="introduce.btn"></span></a>
                     </div>
                 </div>
             </div>
@@ -110,55 +107,134 @@
         <!--========== Benefit ==========-->
         <section class="benefit section" id="benefit">
             <div class="container">
-                <h2 class="section__title" data-i18n="benefit.title">Tính ứng dụng của trắc nghiệm DISC</h2>
+                <h2 class="section__title" data-i18n="benefit.title"></h2>
                 <div class="benefit__data grid">
                     <div class="benefit__box">
                         <img src="assets/images/benefit-1.png" alt="benefit-1" class="benefit__img">
-                        <p data-i18n="benefit.text-1">Định hướng nghề nghiệp phù hợp</p>
+                        <p data-i18n="benefit.text-1"></p>
                     </div>
                     <div class="benefit__box">
                         <img src="assets/images/benefit-2.png" alt="benefit-2" class="benefit__img">
-                        <p data-i18n="benefit.text-2">Tăng cường kỹ năng giao tiếp</p>
+                        <p data-i18n="benefit.text-2"></p>
                     </div>
                     <div class="benefit__box">
                         <img src="assets/images/benefit-3.png" alt="benefit-3" class="benefit__img">
-                        <p data-i18n="benefit.text-3">Xây dựng năng lực quản lý - lãnh đạo</p>
+                        <p data-i18n="benefit.text-3"></p>
                     </div>
                     <div class="benefit__box">
                         <img src="assets/images/benefit-4.png" alt="benefit-4" class="benefit__img">
-                        <p data-i18n="benefit.text-4">Giải quyết các xung đột cá nhân</p>
+                        <p data-i18n="benefit.text-4"></p>
                     </div>
                     <div class="benefit__box">
                         <img src="assets/images/benefit-5.png" alt="benefit-5" class="benefit__img">
-                        <p data-i18n="benefit.text-5">Tăng cường kỹ năng và năng suất làm việc</p>
+                        <p data-i18n="benefit.text-5"></p>
                     </div>
                     <div class="benefit__box">
                         <img src="assets/images/benefit-6.png" alt="benefit-6" class="benefit__img">
-                        <p data-i18n="benefit.text-6">Chọn mục tiêu và quyết định thông minh</p>
+                        <p data-i18n="benefit.text-6"></p>
                     </div>
                 </div>
                 <div class="benefit__buttons">
-                    <a href="#contact" class="button"><span data-i18n="benefit.btn">Trải nghiệm ngay</span></a>
+                    <a href="#contact" class="button"><span data-i18n="benefit.btn"></span></a>
                 </div>
             </div>
         </section>
-        <!--========== questions ==========-->
+        <!--========== Structure ==========-->
+        <section class="structure section" id="structure">
+            <div class="container">
+                <h2 class="section__title" data-i18n="structure.title"></h2>
+                <div class="structure__data grid">
+                    <div class="structure__box">
+                        <div class="structure__box--top">
+                            <div>
+                                <img src="assets/images/structure-1.png" alt="structure-1" class="structure__img">
+                            </div>
+                            <div class="structure__text">
+                                <p>Trắc nghiệm</p>
+                                <h6>KHẢ NĂNG</h6>
+                                <p>36 câu hỏi</p>
+                            </div>
+                        </div>
+                        <div class="structure__box--bottom">
+                            <p>
+                                <b><u>Phần 1:</u></b> Bài trắc nghiệm <b>Khả Năng</b> đánh giá 6 khả năng bẩm sinh:
+                            </p>
+                            <ul>
+                                <li><span>Khả năng tính toán & phân tích</span></li>
+                                <li><span>Khả năng ngôn ngữ</span></li>
+                                <li><span>Tư duy trừu tượng</span></li>
+                                <li><span>Tư duy hệ thống</span></li>
+                                <li><span>Khả năng kỹ thuật</span></li>
+                                <li><span>Khả năng cảm quan không gian</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="structure__box">
+                        <div class="structure__box--top">
+                            <div>
+                                <img src="assets/images/structure-2.png" alt="structure-2" class="structure__img">
+                            </div>
+                            <div class="structure__text">
+                                <p>Trắc nghiệm</p>
+                                <h6>TÍNH CÁCH</h6>
+                                <p>24 câu hỏi</p>
+                            </div>
+                        </div>
+                        <div class="structure__box--bottom">
+                            <img src="assets/images/line.png" class="structure__line" alt="line">
+                            <p>
+                                <b><u>Phần 2:</u></b> Bài trắc nghiệm <b>Tính Cách</b> dựa trên lý thuyết <b>D-I-S-C</b> đưa ra xu hướng tính cách: 
+                            </p>
+                            <ul>
+                                <li><span>D - Phong cách thống trị</span></li>
+                                <li><span>I - Phong cách ảnh hưởng</span></li>
+                                <li><span>S - Phong cách kiên định</span></li>
+                                <li><span>C - Phong cách tuân thủ</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="structure__box">
+                        <div class="structure__box--top">
+                            <div>
+                                <img src="assets/images/structure-3.png" alt="structure-3" class="structure__img">
+                            </div>
+                            <div class="structure__text">
+                                <p>Trắc nghiệm</p>
+                                <h6>SỞ THÍCH</h6>
+                                <p>60 câu hỏi</p>
+                            </div>
+                        </div>
+                        <div class="structure__box--bottom">
+                            <img src="assets/images/line.png" class="structure__line" alt="line">
+                            <p>
+                                <b><u>Phần 3:</u></b> Bài trắc nghiệm <b>Sở Thích</b> dựa trên lý thuyết <b>Holland Code</b>:
+                            </p>
+                            <ul>
+                                <li><span>Realistic - Thực tiễn</span></li>
+                                <li><span>Investigate - Tư duy</span></li>
+                                <li><span>Artistic - Nghệ thuật</span></li>
+                                <li><span>Social - Xã hội</span></li>
+                                <li><span>Enterprising - Kinh doanh</span></li>
+                                <li><span>Conventional - Truyền thống</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========== Questions ==========-->
         <section class="question section" id="question">
             <div class="container">
-                <h2 class="section__title" data-i18n="question.title">Câu hỏi & Báo cáo mẫu</h2>
+                <h2 class="section__title" data-i18n="question.title"></h2>
                 <div class="question__content">
                     <div class="question__data grid">
                         <div class="question__text">
-                            <p data-i18n="question.text-1">
-                                Hệ thống <b>24 câu hỏi</b> nhận định và tình huống sẽ giúp hệ thống xác định đặc điểm tiêu biểu của 4 nhóm tính cách 
-                            </p>
-                            <p data-i18n="question.text-2">
-                                <b>Báo cáo</b> của JobTest sẽ cho thấy kết quả tổng quan và 10 khía cạnh phân tích từ kết quả tính cách của bạn
-                            </p>
+                            <p data-i18n="question.text-1"></p>
+                            <p data-i18n="question.text-2"></p>
                         </div>
                         <div class="question__buttons">
-                            <a href="#show" class="button" id="btn-question" data-handle="#popup-questions"><span data-i18n="question.btn-1">Câu hỏi mẫu</span></a>
-                            <a href="#show" class="button btn__blue" id="btn-report" data-handle="#popup-reports"><span data-i18n="question.btn-2">Báo cáo mẫu</span></a>
+                            <a href="#show" class="button" id="btn-question" data-handle="#popup-questions"><span data-i18n="question.btn-1"></span></a>
+                            <a href="#show" class="button btn__blue" id="btn-report" data-handle="#popup-reports"><span data-i18n="question.btn-2"></span></a>
                         </div>
                     </div>
                     <div class="question__group grid">
@@ -170,7 +246,7 @@
         <!--========== Process ==========-->
         <section class="process section" id="process">
             <div class="container">
-                <h2 class="section__title" data-i18n="process.title">Quy trình thực hiện</h2>
+                <h2 class="section__title" data-i18n="process.title"></h2>
                 <div class="process__content">
                     <div class="process__group">
                         <img class="process__img" src="assets/images/process.png" alt="process">
@@ -181,18 +257,18 @@
                                 <span>1</span>
                                 <div class="process__line"></div>
                             </div>
-                            <div class="process__text"><p data-i18n="process.text-1">Điền thông tin cá nhân</p></div>
+                            <div class="process__text"><p data-i18n="process.text-1"></p></div>
                         </div>
                         <div class="process__step">
                             <div class="process__num">
                                 <span>2</span>
                                 <div class="process__line"></div>
                             </div>
-                            <div class="process__text"><p data-i18n="process.text-2">Thực hiện trắc nghiệm</p></div>
+                            <div class="process__text"><p data-i18n="process.text-2"></p></div>
                         </div>
                         <div class="process__step">
                             <div class="process__num"><span>3</span></div>
-                            <div class="process__text"><p data-i18n="process.text-3">Nhận báo cáo qua mail</p></div>
+                            <div class="process__text"><p data-i18n="process.text-3"></p></div>
                         </div>
                     </div>
                 </div>
@@ -201,7 +277,7 @@
         <!--========== Product ==========-->
         <section class="product section" id="product">
             <div class="container">
-                <h2 class="section__title" data-i18n="product.title">Nâng cao trải nghiệm với 2 phiên bản</h2>
+                <h2 class="section__title" data-i18n="product.title"></h2>
                 <div class="product__content grid">
                     <div class="product__group">
                         <div class="product__version">
@@ -261,7 +337,6 @@
                 <h2 class="section__title" data-i18n="contact.title">Khám phá tính cách theo DISC </h2>
                 <div class="contact__content">
                     <div class="contact__form">
-                        <!-- <h3 data-i18n="contact.subtitle">Đăng ký nhận thông tin</h3> -->
                         <div class="contact__nav">
                             <ul>
                                 <li class="contact__nav--link contact__nav--active" data-handle="#contact-login"><a href="#" data-i18n="contact.btn-1">Đăng nhập</a></li>
@@ -350,8 +425,8 @@
                             <div class="contact__icon">
                                 <p data-i18n="contact.text-3">Hoặc đăng ký bằng tài khoản mạng xã hội</p>
                                 <div>
-                                    <a href="#"><i class='bx bxl-facebook' ></i></a>
-                                    <a href="#"><i class='bx bxl-google' ></i></a>
+                                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                                    <a href="#"><i class='bx bxl-google'></i></a>
                                 </div>
                             </div>
                         </div>
@@ -388,10 +463,22 @@
                             <p data-i18n="about.text-4">Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu</p>
                         </div>
                     </div>
+                    <div class="about__box about__orange grid">
+                        <div class="about__text">
+                            <h6>Đối tác chiến lược</h6>
+                            <h3>IBM Kenexa</h3>
+                            <p>Tháng 08/2017, JobTest trở thành đối tác chiến lược của IBM Kenexa đầu tiên tại Việt Nam, kế thừa những công nghệ trong quy trình tuyển dụng tiên tiến.</p>
+                            <p>IBM đứng trong hàng ngũ của những tập đoàn công nghệ thông tin hàng đầu thế giới, chuyên về cung cấp sản phẩm, dịch vụ phần cứng - phần mềm. Năm 2012, IBM mua lại Kenexa, nhằm củng cố vị thế của họ trên thị trường ứng dụng quản lý nguồn nhân lực. Hoạt động dưới tên IBM Kenexa, phần mềm tuyển dụng và phát triển những ứng viên sáng giá nhất cho mạng lưới doanh nghiệp hàng đầu thế giới</p>
+                        </div>
+                        <div class="about__group">
+                            <img src="assets/images/about-3.png" class="about__img" alt="about-3">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!--========== Popup ==========-->
         <section class="popup section" id="popup-questions">
             <div class="popup__content">
                 <div class="popup__header">
@@ -416,48 +503,48 @@
             </div>
         </section>
     </main>
-
+    <!--========== FOOTER ==========-->
     <footer class="footer section">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__top">
                     <div class="footer__text">
                         <ul>
-                            <li><h3 data-i18n="footer.title-1">Về JobTest</h3></li>
-                            <li><a href="https://jobtest.vn/vi/about-us"><span data-i18n="footer.text-1">Giới thiệu</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/contact"><span data-i18n="footer.text-2">Liên hệ</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/term-of-service"><span data-i18n="footer.text-3">Chính sách bảo mật</span></a></li>
+                            <li><h3 data-i18n="footer.title-1"></h3></li>
+                            <li><a href="https://jobtest.vn/vi/about-us"><span data-i18n="footer.text-1"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/contact"><span data-i18n="footer.text-2"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/term-of-service"><span data-i18n="footer.text-3"></span></a></li>
                         </ul>
                     </div>
                     <div class="footer__text">
                         <ul>
-                            <li><h3 data-i18n="footer.title-2">Dành cho cá nhân</h3></li>
-                            <li><a href="https://jobtest.vn/vi/kham-pha-ban-than/free-filter"><span data-i18n="footer.text-4">Trắc nghiệm bản thân</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/danh-gia-nang-luc/nang-luc-cong-viec"><span data-i18n="footer.text-5">Trắc nghiệm nghề nghiệp</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/khoa-hoc"><span data-i18n="footer.text-6">Khoá học</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/career-path"><span data-i18n="footer.text-7">Thông tin hướng nghiệp</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/vcf"><span data-i18n="footer.text-8">Ngày hội tuyển dụng - tuyển sinh</span></a></li>
-                            <li><a href="https://jobtest.vn/hrblog/vi/"><span data-i18n="footer.text-9">Tin tức</span></a></li>
+                            <li><h3 data-i18n="footer.title-2"></h3></li>
+                            <li><a href="https://jobtest.vn/vi/kham-pha-ban-than/free-filter"><span data-i18n="footer.text-4"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/danh-gia-nang-luc/nang-luc-cong-viec"><span data-i18n="footer.text-5"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/khoa-hoc"><span data-i18n="footer.text-6"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/career-path"><span data-i18n="footer.text-7"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/vcf"><span data-i18n="footer.text-8"></span></a></li>
+                            <li><a href="https://jobtest.vn/hrblog/vi/"><span data-i18n="footer.text-9"></span></a></li>
                         </ul>
                     </div>
                     <div class="footer__text">
                         <ul>
-                            <li><h3 data-i18n="footer.title-3">Dành cho doanh nghiệp</h3></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/danh-gia-nang-luc-truc-tuyen"><span data-i18n="footer.text-10">Đánh giá năng lực trực tuyến</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/khung-nang-luc-tu-dien-nang-luc"><span data-i18n="footer.text-11">Khung năng lực & từ điển năng lực</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/phan-mem-quan-ly-nhan-su-aihr"><span data-i18n="footer.text-12">AiHR - Phần mềm quản lý nhân sự</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tinh-luong"><span data-i18n="footer.text-13">Dịch Vụ Tính lương</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-thue-ngoai-nhan-su"><span data-i18n="footer.text-14">Thuê ngoài nhân sự</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-kiem-tra-tham-chieu"><span data-i18n="footer.text-15">Kiểm tra tham chiếu</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tuyen-dung-nhan-su-cap-cao"><span data-i18n="footer.text-16">Tuyển dụng nhân sự cấp cao</span></a></li>
-                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tuyen-dung-nhan-su-tron-goi"><span data-i18n="footer.text-17">Tuyển dụng tập trung</span></a></li>
+                            <li><h3 data-i18n="footer.title-3"></h3></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/danh-gia-nang-luc-truc-tuyen"><span data-i18n="footer.text-10"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/khung-nang-luc-tu-dien-nang-luc"><span data-i18n="footer.text-11"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/phan-mem-quan-ly-nhan-su-aihr"><span data-i18n="footer.text-12"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tinh-luong"><span data-i18n="footer.text-13"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-thue-ngoai-nhan-su"><span data-i18n="footer.text-14"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-kiem-tra-tham-chieu"><span data-i18n="footer.text-15"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tuyen-dung-nhan-su-cap-cao"><span data-i18n="footer.text-16"></span></a></li>
+                            <li><a href="https://employer.jobtest.vn/vi/giai-phap/dich-vu-tuyen-dung-nhan-su-tron-goi"><span data-i18n="footer.text-17"></span></a></li>
                         </ul>
                     </div>
                     <div class="footer__text">
                         <ul>
-                            <li><h3 data-i18n="footer.title-4">Hợp tác</h3></li>
-                            <li><a href="https://jobtest.vn/vi/partner/career-counselors"><span data-i18n="footer.text-18">Chuyên gia hướng nghiệp</span></a></li>
-                            <li><a href="https://jobtest.vn/vi/partner/uni"><span data-i18n="footer.text-19">Tổ chức giáo dục & đào tạo</span></a></li>
+                            <li><h3 data-i18n="footer.title-4"></h3></li>
+                            <li><a href="https://jobtest.vn/vi/partner/career-counselors"><span data-i18n="footer.text-18"></span></a></li>
+                            <li><a href="https://jobtest.vn/vi/partner/uni"><span data-i18n="footer.text-19"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -465,22 +552,22 @@
                 <div class="footer__bottom">
                     <div class="footer__bottom-left">
                         <div class="footer__text">
-                            <p data-i18n="footer.text-20">Bản quyền © 2017 - 2022 thuộc</p>
-                            <h6 data-i18n="footer.text-21">Công ty TNHH JobTest</h6>
+                            <p data-i18n="footer.text-20"></p>
+                            <h6 data-i18n="footer.text-21"></h6>
                         </div>
                         <div class="footer__text">
-                            <h6 data-i18n="footer.text-22">Trụ sở:</h6>
-                            <p data-i18n="footer.text-23">P1-2.43, Tầng 2, toà nhà The Prince Residence, 19-21 Nguyễn Văn Trỗi, Phường 11, Quận Phú Nhuận, TPHCM, VN</p>
+                            <h6 data-i18n="footer.text-22"></h6>
+                            <p data-i18n="footer.text-23"></p>
                         </div>
                         <div class="footer__text">
-                            <h6 data-i18n="footer.text-24">Chi nhánh:</h6>
-                            <p data-i18n="footer.text-25">Phòng 403 tòa nhà Ocean Park, 1 Đào Duy Anh, Phường Phương Mai, Quận Đống Đa, Hà Nội, VN</p>
+                            <h6 data-i18n="footer.text-24"></h6>
+                            <p data-i18n="footer.text-25"></p>
                         </div>
                         <div class="footer__text">
-                            <p><b>Email:</b> info@jobtest.vn</p>
+                            <p data-i18n="footer.text-26"></p>
                         </div>
                         <div class="footer__text">
-                            <p><b>Hotline:</b> 028 6681 9668</p>
+                            <p data-i18n="footer.text-27"></p>
                         </div>
                     </div>
                     <div class="footer__bottom-right">
@@ -494,6 +581,7 @@
         </div>
     </footer>
 
+    <!--========== SCRIPTS ==========-->
     <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

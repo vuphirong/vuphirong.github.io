@@ -1,5 +1,9 @@
 .question {
-    background-color: #F3FDFF;
+    background-color: var(--bg-section-color);
+
+    .section__title {
+        margin-bottom: 50px;
+    }
 
     &__content {
         display: flex;
@@ -14,6 +18,8 @@
 
     &__img {
         justify-self: center;
+        position: relative;
+        margin-bottom: 40px;
     }
 
     &__buttons {
@@ -38,7 +44,7 @@
         }
 
         .btn__blue {
-            background-color: #0097BD;
+            background-color: var(--title-color);
             color: #FFFFFF;
 
             &:hover {

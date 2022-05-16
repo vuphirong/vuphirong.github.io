@@ -1,5 +1,5 @@
 .contact {
-    background-color: #F3FDFF;
+    background-color: var(--bg-section-blue-color);
 
     &__nav {
         margin-bottom: 15px;
@@ -12,7 +12,7 @@
                 margin-right: 30px;
 
                 a {
-                    color: #fff;
+                    color: var(--white-color);
                     font-weight: var(--font-medium);
                     font-size: var(--h3-font-size);
                     font-family: var(--title-font);
@@ -38,7 +38,7 @@
                         right: -15px;
                         transform: translateY(-50%);
                         width: 2px;
-                        background-color: #fff;
+                        background-color: var(--white-color);
                         height: 15px;
                         // transition: background-color .15s ease-in-out;
                     }
@@ -52,7 +52,7 @@
 
         &--active {
             &::before {
-                background-color: #fff;
+                background-color: var(--white-color);
                 width: 100%!important;
             }
         }
@@ -61,7 +61,7 @@
     &__cta {
         position: relative;
         font-size: var(--smaller-font-size);
-        color: #fff;
+        color: var(--white-color);
         padding: 0 30px;
         margin-bottom: 40px;
     }
@@ -72,9 +72,10 @@
 
     &__form {
         position: relative;
-        margin-top: 30px;
-        background-color: #0097BD;
+        margin: 30px auto 0;
+        background-color: var(--title-color);
         border-radius: 20px;
+        max-width: 459px;
         overflow: hidden;
         transition: .3s all;
 
@@ -84,7 +85,7 @@
             padding-bottom: 30px;
             text-align: center;
             font-size: var(--h2-font-size);
-            color: #fff;
+            color: var(--white-color);
             font-weight: var(--font-semi-bold);
             font-family: var(--body-font);
         }
@@ -125,7 +126,7 @@
         label {
             display: block;
             padding: 0 30px;
-            color: #fff;
+            color: var(--white-color);
             font-size: var(--small-font-size);
             font-weight: var(--font-medium);
             margin-bottom: 10px;
@@ -139,7 +140,8 @@
         a {
             padding: 0 30px;
             font-size: var(--small-font-size);
-            color: #fff;
+            color: var(--white-color);
+            text-decoration: underline;
         }
     }
 
@@ -153,7 +155,7 @@
             top: 50%;
             left: 55px;
             transform: translate(-50%, -50%);
-            color: #3e3e3e;
+            color: #727272;
             font-size: var(--h2-font-size);
         }
     }
@@ -196,7 +198,7 @@
 
         a {
             background-color: transparent;
-            border: 2px solid #FFF;
+            border: 2px solid var(--white-color);
             animation: none;
             padding: .75rem 1.75rem;
         }
@@ -206,13 +208,13 @@
             background-color: #F3FDFF;
             
             span {
-                color: #0097BD;
+                color: var(--title-color);
             }
         }
 
         a span {
             font-size: var(--small-font-size);
-            color: #FFFFFF;
+            color: var(--white-color);
         }
     }
 
@@ -223,7 +225,7 @@
         p {
             padding: 0 30px;
             font-size: var(--small-font-size);
-            color: #fff;
+            color: var(--white-color);
             line-height: 22px;
             margin-bottom: 20px;
         }
@@ -232,9 +234,9 @@
             margin-right: 7px;
 
             i {
-                color: #fff;
+                color: var(--white-color);
                 font-size: var(--h3-font-size);
-                border: 2px solid #fff;
+                border: 2px solid var(--white-color);
                 border-radius: 50%;
                 padding: 5px;
                 transition: .3s all;
@@ -249,7 +251,7 @@
                 i {
                     border: 2px solid #F3FDFF;
                     background-color: #F3FDFF;
-                    color: #0097BD;
+                    color: var(--title-color);
                 }
             }
         }

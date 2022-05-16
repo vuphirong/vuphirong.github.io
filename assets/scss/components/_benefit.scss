@@ -1,5 +1,5 @@
 .benefit {
-    background-color: #F5F5F5;
+    background-color: var(--bg-section-color);
 
     &__data {
         margin-bottom: 34px;
@@ -8,7 +8,7 @@
     &__box {
         display: flex;
         align-items: center;
-        background-color: #FFFFFF;
+        background-color: var(--white-color);
         margin-bottom: 16px;
         border-radius: 15px;
         padding: 23px;
@@ -25,7 +25,7 @@
         justify-content: center;
         a span {
             font-size: var(--normal-font-size);
-            color: #FFFFFF;
+            color: var(--white-color);
         }
     }
 }

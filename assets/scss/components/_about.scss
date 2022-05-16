@@ -19,7 +19,7 @@
             font-family: var(--title-font);
             font-weight: var(--font-medium);
             font-size: var(--small-font-size);
-            color: #0097BD;
+            color: var(--title-color);
             padding: 35px 0 0 35px;
         }
 
@@ -37,13 +37,13 @@
                 width: 15%;
                 height: 2px;
                 top: 35px;
-                background-color: #0097BD;
+                background-color: var(--title-color);
             }
         }
 
         p {
             margin-bottom: 15px;
-            color: #0097BD;
+            color: var(--title-color);
             padding: 0 35px;
             padding-right: 20px;
             line-height: 23px;
@@ -59,28 +59,61 @@
     }
 
     &__blue {
-        background-color: #0097BD;
+        background-color: var(--title-color);
         .about__text {
             h6 {
-                color: #fff;
+                color: var(--white-color);
                 text-align: right;
                 padding-right: 35px;
             }
             h3 {
-                color: #fff;
+                color: var(--white-color);
                 text-align: right;
                 padding-right: 35px;
                 &::after {
                     right: 35px;
-                    background-color: #fff;
+                    background-color: var(--white-color);
                     width: 30%;
                 }
             }
 
             p {
-                color: #fff;
+                color: var(--white-color);
                 text-align: right;
                 padding-left: 10px;
+            }
+
+            p:nth-child(3) {
+                font-style: italic;
+                font-size: var(--small-font-size);
+                line-height: 20px;
+                margin-bottom: var(--mb-1-5);
+                padding-left: 35px;
+            }
+        }
+    }
+
+    &__orange {
+        background-color: #FFE4D4;
+
+        .about__text {
+            h6 {
+                color: var(--first-color);
+                padding-left: 35px;
+            }
+            h3 {
+                color: var(--first-color);
+                padding-left: 35px;
+                &::after {
+                    left: 35px;
+                    background-color: var(--first-color);
+                    width: 30%;
+                }
+            }
+
+            p {
+                color: var(--first-color);
+                padding-right: 10px;
             }
 
             p:nth-child(3) {

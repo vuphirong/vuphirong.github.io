@@ -1,5 +1,5 @@
 .process {
-    background-color: #F3FDFF;
+    background-color: var(--bg-section-color);
     padding-top: 0;
 
     &__group {
@@ -18,8 +18,8 @@
     }
 
     &__img {
-        position: absolute;
-        transform: translateY(-100px);
+        position: relative;
+        transform: translate(-30px, -100px);
     }
 
     &__num {
@@ -27,10 +27,10 @@
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        border: 2px solid #0097BD;
+        border: 2px solid var(--title-color);
         justify-content: center;
         align-items: center;
-        color: #0097BD;
+        color: var(--title-color);
         font-family: var(--title-font);
         font-weight: var(--font-bold);
         margin-right: 20px;
@@ -39,7 +39,7 @@
 
         &:hover {
             color: #fff;
-            background-color: #0097BD;
+            background-color: var(--title-color);
         }
     }
 
@@ -47,7 +47,7 @@
         position: absolute;
         width: 2px;
         height: 28px;
-        background-color: #0097BD;
+        background-color: var(--title-color);
         bottom: -28px;
     }
 }

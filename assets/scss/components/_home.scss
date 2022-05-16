@@ -1,5 +1,5 @@
 .home {
-    // background-color: #FBFBFB;
+    // background-color: var(--bg-section-color);
     position: relative;
 
     &__bg {
@@ -7,8 +7,7 @@
         width: 100%;
         height: 100%;
         z-index: -1;
-        object-fit: cover;
-        opacity: 50%;
+        object-fit: fill;
         object-position: center;
     }
 
@@ -24,7 +23,6 @@
 
     &__img {
         width: 100%;
-        max-width: 350px;
         justify-self: center;
     }
 
@@ -63,11 +61,15 @@
         font-size: var(--biggest-font-size);
         font-weight: var(--font-black);
         margin-bottom: var(--mb-1);
+
+        span {
+            color: var(--first-color);
+        }
     }
 
     &__tagline {
         color: var(--text-color);
-        font-size: var(--h2-font-size);
+        font-size: var(--h3-font-size);
         margin-bottom: var(--mb-1);
     }
 
@@ -83,13 +85,10 @@
     }
 
     &__buttons {
-        justify-self: center;
-        display: flex;
-        justify-content: space-between;
         margin-bottom: 0;
         a span {
             font-size: var(--normal-font-size);
-            color: #FFFFFF;
+            color: var(--white-color);
         }
     }
 }

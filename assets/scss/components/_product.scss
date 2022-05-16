@@ -5,6 +5,8 @@
 
     &__group {
         display: flex;
+        max-width: 440px;
+        margin: 0 auto;
         flex-direction: column;
         justify-content: center;
         background-color: #E9F7F8;
@@ -24,8 +26,8 @@
 
         .product__buttons {
             a {
-                border: 2px solid #0097BD;
-                background-color: #0097BD;
+                border: 2px solid var(--title-color);
+                background-color: var(--title-color);
 
                 span {
                     color: #E9F7F8;
@@ -45,9 +47,8 @@
         display: flex;
         align-items: center;
         color: #000;
-        min-width: 270px;
+        margin: 0 30px;
         margin-bottom: var(--mb-0-5);
-
         i {
             font-weight: var(--font-bold);
             margin-right: var(--mr-0-5);
@@ -60,7 +61,7 @@
 
         span {
             display: inline-block;
-            background-color: #0097BD;
+            background-color: var(--title-color);
             min-width: 270px;
             padding: 10px 0;
             margin-top: 30px;
@@ -75,6 +76,7 @@
 
     &__img {
         margin: 0 auto;
+        width: 80%;
     }
 
     &__buttons {
@@ -86,24 +88,24 @@
             min-width: 270px;
             text-align: center;
             font-weight: var(--font-bold);
-            border: 2px solid #0097BD;
+            border: 2px solid var(--title-color);
             background-color: transparent;
         }
 
         a span {
             font-size: var(--normal-font-size);
-            color: #0097BD;
+            color: var(--title-color);
         }
     }
 
     
     &__blue {
-        background-color: #0097BD;
+        background-color: var(--title-color);
 
         .product__version {
             span {
                 background-color: #F3FDFF;
-                color: #0097BD;
+                color: var(--title-color);
             }
         }
 
@@ -161,14 +163,14 @@
                     background-color: #E9F7F8;
     
                     span {
-                        color: #0097BD;
+                        color: var(--title-color);
                     }
                 }
     
                 .product__discount {
-                    color: #0097BD;
+                    color: var(--title-color);
                     &::before {
-                        background-color: #0097BD;
+                        background-color: var(--title-color);
                     }
                 }
             }
