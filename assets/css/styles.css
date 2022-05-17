@@ -470,7 +470,7 @@ button {
 .nav__link {
   text-transform: uppercase;
   font-weight: var(--font-medium);
-  color: var(--title-color);
+  color: #0097BD;
   font-family: var(--title-font);
   font-size: var(--small-font-size);
   transition: 0.4s;
@@ -597,8 +597,8 @@ button {
   list-style-type: none;
 }
 .introduction__img {
-  width: 100%;
-  max-width: 568px;
+  width: 470px;
+  transform: translateY(-25px);
   height: auto;
 }
 .introduction__group {
@@ -662,10 +662,14 @@ button {
 .structure__box--bottom p {
   font-size: var(--normal-font-size);
   line-height: 22px;
+  margin-bottom: 7px;
 }
 .structure__box--bottom ul {
   list-style-type: disc;
   margin-left: 25px;
+}
+.structure__box--bottom ul li {
+  margin-bottom: 3px;
 }
 .structure__box:first-child {
   margin-top: 0;
@@ -860,7 +864,7 @@ button {
 }
 .product__img {
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
 }
 .product__buttons {
   display: flex;
@@ -1723,7 +1727,6 @@ button {
     position: relative;
     width: auto;
     height: 100%;
-    transform: translate(0, 75px);
     object-fit: contain;
   }
   .contact__group {
@@ -1766,7 +1769,7 @@ button {
     padding-top: 0;
   }
   .home__img {
-    width: 430px;
+    width: 460px;
     padding-right: 0px;
     height: auto;
   }
@@ -1812,7 +1815,7 @@ button {
   }
 
   .contact__img {
-    transform: translate(15px, 75px);
+    transform: translateX(15px);
   }
 
   .footer__top {
@@ -1837,7 +1840,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .contact__img {
-    transform: translate(30px, 75px);
+    transform: translateX(30px);
   }
 }
 

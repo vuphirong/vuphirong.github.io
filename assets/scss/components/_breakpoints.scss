@@ -298,7 +298,6 @@
             position: relative;
             width: auto;
             height: 100%;
-            transform: translate(0, 75px);
             object-fit: contain;
         }
 
@@ -355,7 +354,7 @@
             padding-top: 0;
         }
         &__img{
-            width: 430px;
+            width: 460px;
             padding-right: 0px;
             height: auto;
         }
@@ -420,7 +419,7 @@
 
     .contact {
         &__img {
-            transform: translate(15px, 75px);
+            transform: translateX(15px);
         }
     }
 
@@ -455,7 +454,7 @@
     
     .contact {
         &__img {
-            transform: translate(30px, 75px);
+            transform: translateX(30px);
         }
     }
 }

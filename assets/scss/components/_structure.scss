@@ -51,11 +51,16 @@
             p {
                 font-size: var(--normal-font-size);
                 line-height: 22px;
+                margin-bottom: 7px;
             }
 
             ul {
                 list-style-type: disc;
                 margin-left: 25px;
+
+                li {
+                    margin-bottom: 3px;
+                }
             }
         }
     }

@@ -15,46 +15,69 @@
     },
     "introduce": {
         "title": "What is an iTalent Profile?",
-        "text-1": "<b>DISC personality asessment</b> applies psychological research tool of Dr. William Moulton Marston at Harvard University, known as a tool to identify and predict a person's personality and behavior. The DISC theory was developed in 1928, but after nearly 100 years, the DISC method is still widely used in management disciplines.",
-        "text-2": "<b>The DISC method</b> uses two pairs of opposing categories:",
-        "text-3": "Active - Passive",
-        "text-4": "Work-oriented - People-oriented",
-        "text-5": "Through identifying the typical characteristics of those two pairs of opposites, the results will give you 4 personality groups <b>D - I - S - C</b> showing the outstanding personality of that person at work.",
-        "btn": "Start your assessment"
+        "text-1": "<b>iTalent Profile</b> provide students with a scientific and up-to-date approach to define their dream career within 3 factors: aptitude ability, personality and career interest.",
+        "text-2": "Customized for <b>students grading 6-12,</b> iTalent Profile helps them to summarize their talent and raise their awareness in career orientation and self-development.",
+        "text-3": "<b>JobTest</b> has been supporting more than 200,000 students nationally and internationally from High schools, top universities such as Vinschools, UNIST Korea, SMU Singapore, UEL, FPT...",
+        "btn": "Try Now"
     },
     "benefit": {
-        "title": "The applicability of the DISC Assessment",
-        "text-1": "Appropriate career orientation",
-        "text-2": "Enhance communication skills",
+        "title": "What benefits iTalent Profile provide you!",
+        "text-1": "Right Career Selection & Orientation",
+        "text-2": "Explore personality behaviors",
         "text-3": "Building management capacity - leadership",
-        "text-4": "Resolving personal conflicts",
-        "text-5": "Enhance work skills and productivity",
-        "text-6": "Choose your goals and make smart decisions",
-        "btn": "Explore yourself"
+        "text-4": "Understand your career interest",
+        "text-5": "Enhance learning performance & productivity",
+        "text-6": "Self-development and create personal branding",
+        "btn": "Explore Now"
     },
     "structure": {
-        "title":        "Cấu trúc trắc nghiệm nghề nghiệp iTalent",
-        "text-1":       "Trắc nghiệm"
+        "title":        "Structure of an iTalent Profile",
+        "text-1":       "Test",
+        "text-2":       "Aptitude",
+        "text-3":       "36 questions",  
+        "text-4":       "<b><u>Part 1:</u></b> Aptitude Test consisting of 6 pillars:",
+        "text-5":       "Numerical Reasoning", 
+        "text-6":       "Verbal Reasoning", 
+        "text-7":       "Abstract Reasoning", 
+        "text-8":       "Diagrammatic Reasoning", 
+        "text-9":       "Mechanical Reasoning", 
+        "text-10":      "Spatial Reasoning",
+        "text-11":      "Personality",
+        "text-12":      "24 questions",
+        "text-13":      "<b><u>Part 2:</u></b> Personality test based on DISC theory targeting at 4 personality trends:",
+        "text-14":      "D - Dominance",
+        "text-15":      "I - Influence",
+        "text-16":      "S - Steadiness",
+        "text-17":      "C - Compliance",
+        "text-18":      "Interest",
+        "text-19":      "60 questions",
+        "text-20":      "<b><u>Part 3:</u></b> Career Interest Test based on Holland Code theory:",
+        "text-21":      "Realistic",
+        "text-22":      "Investigate",
+        "text-23":      "Artistic",
+        "text-24":      "Social",
+        "text-25":      "Enterprising",
+        "text-26":      "Conventional"
     },
     "question": {
         "title": "Sample Question and Report",
-        "text-1": "The system of <b>24 situational questions</b> will help the system identify typical characteristics of 4 personality groups",
-        "text-2": "<b>The JobTest report</b> will show the overall results and 10 analytical issues from your personality results",
+        "text-1": "A collection of <b>120 questions</b> categorized into specific parts",
+        "text-2": "<b>The JobTest report</b> helps show general result and analytics of your aptitude ability, personality behaviors and career interest!",
         "btn-1": "Sample Questions",
         "btn-2": "Sample Report"
     },
     "process": {
-        "title": "Implementation process",
+        "title": "Step to complete iTalent Profile",
         "text-1": "Fill in personal information",
         "text-2": "Take the quiz",
-        "text-3": "Receive reports by mail"
+        "text-3": "Receive report via Email"
     },
     "product": {
         "title": "Enhance the experience with 2 versions",
-        "text-1": "25-question multiple-choice test",
-        "text-2": "Personality overview report",
-        "text-3": "Detailed report on <b>10 personality</b> problems",
-        "text-4": "*Until 15th of May, 2022"
+        "text-1": "120-question multiple-choice test",
+        "text-2": "Overview career report",
+        "text-3": "Detailed report analytics",
+        "text-4": "*Until 20th of June, 2022"
     },
     "contact": {
         "title": "Discover personality according to DISC",
