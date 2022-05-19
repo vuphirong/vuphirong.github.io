@@ -641,7 +641,7 @@ button {
   margin-left: 20px;
 }
 .structure__box--top > .structure__text p {
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   line-height: 22px;
 }
 .structure__box--top > .structure__text h6 {
@@ -1769,7 +1769,8 @@ button {
     padding-top: 0;
   }
   .home__img {
-    width: 460px;
+    width: 404px;
+    transform: translateY(-60px);
     padding-right: 0px;
     height: auto;
   }
