@@ -7,21 +7,21 @@
     },
     "header": {
         "subtitle":     "Đối tác chiến lược",
-        "title":        "Bài trắc nghiệm nghề nghiệp <span>iTalent</span>",
+        "title":        "Bài trắc nghiệm ngành nghề <span>iTalent</span>",
         "tagline":      "Khám phá tài năng - Chọn ngành mơ ước",
-        "des-1":        "Khám phá toàn diện tính cách, khả năng và sở thích trong <b>45 phút</b>.</span>",
+        "des-1":        "Khám phá toàn diện tính cách, năng khiếu và sở thích trong <b>45 phút</b>.</span>",
         "des-2":        "Thiết kế đặc biệt dành riêng cho học sinh từ lớp 6 - 12 với chứng nhận khoa học từ đối tác chiến lược <b>IBM Kenexa</b> và <b>Everything DiSC</b>.",
         "btn":          "Khám phá ngay"
     },
     "introduce": {
-        "title":        "Trắc nghiệm nghề nghiệp iTalent là gì?",
-        "text-1":       "<b>Trắc nghiệm nghề nghiệp học sinh - iTalent</b> là phương pháp trắc nghiệm giúp học sinh kiến tạo sự nghiệp mơ ước dựa trên 3 yếu tố: khả năng, tính cách và sở thích nghề nghiệp.",
+        "title":        "Trắc nghiệm ngành nghề iTalent là gì?",
+        "text-1":       "<b>Trắc nghiệm ngành nghề học sinh - iTalent</b> là phương pháp trắc nghiệm giúp học sinh kiến tạo sự nghiệp mơ ước dựa trên 3 yếu tố: khả năng, tính cách và sở thích nghề nghiệp.",
         "text-2":       "Bài trắc nghiệm được thiết kế đặc biệt dành riêng cho <b>học sinh từ lớp 6 - 12</b>, giúp các bạn có cái nhìn toàn diện về bản thân. Từ đó nâng cao nhận thức định hướng nghề nghiệp và phát triển bản thân trong tương lai.",
-        "text-3":       "<b>Trắc nghiệm nghề nghiệp iTalent</b> trên nền tảng <b>JobTest</b> tự hào đã đồng hành cùng hơn 200,000 học sinh, sinh viên trên cả nước và quốc tế đến từ hơn 50 trường THPT, Đại học hàng đầu: Vinschool, UNIST Hàn Quốc, SMU Singapore, Đại học Kinh Tế Luật, Đại học FPT, …",
+        "text-3":       "<b>Trắc nghiệm ngành nghề học sinh  - iTalent</b> trên nền tảng <b>JobTest</b> tự hào đã đồng hành cùng hơn 200,000 học sinh, sinh viên trên cả nước và quốc tế đến từ hơn 50 trường THPT, Đại học hàng đầu: Vinschool, UNIST Hàn Quốc, SMU Singapore, Đại học Kinh Tế Luật, Đại học FPT, …",
         "btn":          "Trải nghiệm ngay"
     },
     "benefit": {
-        "title":        "Tính ứng dụng trắc nghiệm nghề nghiệp iTalent",
+        "title":        "Tính ứng dụng trắc nghiệm ngành nghề iTalent",
         "text-1":       "Định hướng nghề nghiệp phù hợp",
         "text-2":       "Khám phá xu hướng tính cách",
         "text-3":       "Nhận thức khả năng bẩm sinh",
@@ -31,17 +31,17 @@
         "btn":          "Trải nghiệm ngay"
     },
     "structure": {
-        "title":        "Cấu trúc trắc nghiệm nghề nghiệp iTalent",
+        "title":        "Cấu trúc trắc nghiệm ngành nghề iTalent",
         "text-1":       "Trắc nghiệm",
-        "text-2":       "KHẢ NĂNG",
-        "text-3":       "36 câu hỏi",  
-        "text-4":       "<b><u>Phần 1:</u></b> Bài trắc nghiệm <b>Khả Năng</b> đánh giá 6 khả năng bẩm sinh:",
-        "text-5":       "Khả năng tính toán & phân tích", 
-        "text-6":       "Khả năng ngôn ngữ", 
+        "text-2":       "NĂNG KHIẾU",
+        "text-3":       "36 câu hỏi - 45 phút",  
+        "text-4":       "<b><u>Phần 1:</u></b> Bài trắc nghiệm <b>Năng Khiếu</b> đánh giá 6 khả năng bẩm sinh:",
+        "text-5":       "Tính toán & phân tích", 
+        "text-6":       "Ngôn ngữ", 
         "text-7":       "Tư duy trừu tượng", 
         "text-8":       "Tư duy hệ thống", 
-        "text-9":       "Khả năng kỹ thuật", 
-        "text-10":      "Khả năng cảm quan không gian",
+        "text-9":       "Kỹ thuật", 
+        "text-10":      "Cảm quan không gian",
         "text-11":      "TÍNH CÁCH",
         "text-12":      "24 câu hỏi",
         "text-13":      "<b><u>Phần 2:</u></b> Bài trắc nghiệm <b>Tính Cách</b> dựa trên lý thuyết <b>D-I-S-C</b> đưa ra xu hướng tính cách:",
@@ -51,7 +51,7 @@
         "text-17":      "C - Phong cách tuân thủ",
         "text-18":      "SỞ THÍCH",
         "text-19":      "60 câu hỏi",
-        "text-20":      "<b><u>Phần 3:</u></b> Bài trắc nghiệm <b>Sở Thích</b> dựa trên lý thuyết <b>Holland Code</b>:",
+        "text-20":      "<b><u>Phần 3:</u></b> Bài trắc nghiệm <b>Sở Thích nghề nghiệp</b> dựa trên lý thuyết <b>Holland Code</b>:",
         "text-21":      "Realistic - Thực tiễn",
         "text-22":      "Investigate - Tư duy",
         "text-23":      "Artistic - Nghệ thuật",
@@ -62,7 +62,7 @@
     "question": {
         "title":        "Câu hỏi & Báo cáo mẫu",
         "text-1":       "Hệ thống <b>120 câu hỏi</b> nhận định, tình huống, bài tập thực tiễn cho từng phần đánh giá chuyên biệt",
-        "text-2":       "<b>Báo cáo</b> sẽ cho thấy kết quả tổng quan và phân tích chi tiết khả năng, tính cách và sở thích nghề nghiệp của bạn",
+        "text-2":       "<b>Báo cáo</b> sẽ cho thấy kết quả tổng quan và phân tích chi tiết năng khiếu, tính cách và sở thích nghề nghiệp của bạn",
         "btn-1":        "Câu hỏi mẫu",
         "btn-2":        "Báo cáo mẫu"
     },
@@ -75,7 +75,7 @@
     "product": {
         "title":        "Nâng cao trải nghiệm với 2 phiên bản",
         "text-1":       "Bài trắc nghiệm 120 câu hỏi",
-        "text-2":       "Báo cáo tổng quan kết quả nghề nghiệp",
+        "text-2":       "Báo cáo tổng quan kết quả ngành nghề",
         "text-3":       "Báo cáo phân tích chi tiết",
         "text-4":       "*Đến hết ngày 19/06/2022"
     },
@@ -104,7 +104,9 @@
         "text-2":       "Hiện tại, JobTest là nền tảng hướng nghiệp, Đánh giá năng lực trực tuyến hàng đầu tại Việt Nam, đồng thời là đơn vị cung cấp các giải pháp nhân sự chuẩn quốc tế, kiến tạo nguồn nhân lực chất lượng cao cho doanh nghiệp.",
         "subtitle-2":   "Đối tác chiến lược",
         "text-3":       "Tháng 12/2021, Công ty Tư vấn phát triển nguồn nhân lực JobTest chính thức trở thành đối tác chiến lược đầu tiên của Everything DiSC tại Việt Nam",
-        "text-4":       "Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu"
+        "text-4":       "Everything DiSC - thương hiệu thuộc tập đoàn John Wiley and Sons - nơi có nền tảng thư viện về sách lớn nhất thế giới. Wiley and Sons đóng góp vào phần cải thiện hiệu suất làm việc, mang đến trải nghiệm và hiệu quả cho việc phát triển nguồn nhân lực, làm việc nhóm, khám phá tài năng, phát triển lãnh đạo cho cá nhân và doanh nghiệp trên toàn cầu",
+        "text-5":       "Tháng 08/2017, JobTest trở thành đối tác chiến lược của IBM Kenexa đầu tiên tại Việt Nam, kế thừa những công nghệ trong quy trình tuyển dụng tiên tiến.",
+        "text-6":       "IBM đứng trong hàng ngũ của những tập đoàn công nghệ thông tin hàng đầu thế giới, chuyên về cung cấp sản phẩm, dịch vụ phần cứng - phần mềm. Năm 2012, IBM mua lại Kenexa, nhằm củng cố vị thế của họ trên thị trường ứng dụng quản lý nguồn nhân lực. Hoạt động dưới tên IBM Kenexa, phần mềm tuyển dụng và phát triển những ứng viên sáng giá nhất cho mạng lưới doanh nghiệp hàng đầu thế giới"
     },
     "footer": {
         "title-1": "Về JobTest",

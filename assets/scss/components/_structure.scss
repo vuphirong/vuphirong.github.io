@@ -24,7 +24,7 @@
                 margin-left: 20px;
 
                 p {
-                    font-size: var(--normal-font-size);
+                    font-size: var(--small-font-size);
                     line-height: 22px;
                 }
 
@@ -68,13 +68,4 @@
     &__box:first-child {
         margin-top: 0;
     }
-
-    // &__box:nth-child(2n){
-    //     margin: 0 10px;
-    // }
-
-    // &__box:last-child {
-    //     margin-left: 20px;
-    //     margin-right: 0;
-    // }
 }
