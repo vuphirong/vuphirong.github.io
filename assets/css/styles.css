@@ -598,7 +598,7 @@ button {
 }
 .introduction__img {
   width: 470px;
-  transform: translateY(-25px);
+  transform: translateY(-40px);
   height: auto;
 }
 .introduction__group {
@@ -1758,6 +1758,10 @@ button {
 
   .popup__icon i {
     transform: translateY(-15px);
+  }
+
+  .introduction__buttons {
+    margin-top: -51px;
   }
 
   .question__img {

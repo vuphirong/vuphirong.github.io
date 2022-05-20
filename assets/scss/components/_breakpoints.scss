@@ -342,6 +342,12 @@
         }
     }
 
+    .introduction {
+        &__buttons {
+            margin-top: -51px;
+        }
+    }
+
     .question {
         &__img {
             max-width: 380px;
